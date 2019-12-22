@@ -1,6 +1,6 @@
 @keyframes slideDown {
     0% {
-        transform: translateY(-200%);
+        transform: translateY(-15rem);
     }
     100% {
         transform: translateY(0%);
@@ -13,7 +13,7 @@ body {
     background-color: lightgray;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -22,16 +22,27 @@ ul {
 .nav {
     position: relative;
     height: fit-content;
-    background-color: #263350;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    background: linear-gradient(to bottom,#205c40, #0b4c2e);
     box-shadow: 0 0 10px 0 black;
     z-index: 2;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav p {
+    color: #fff;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.nav-header {
+    text-align: center;
+    color: white;
+    margin-left: 10%;
 }
 
 li a {
-    transition: box-shadow 200ms linear 100ms, background-color ease-in 500ms;
     margin: 2rem;
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
@@ -40,22 +51,46 @@ li a {
 }
 
 .active {
-    background-color: #8a5107;
-}
-
-li a:hover {
-    box-shadow: 0 0 10px 0 #ffca74;
+    color: #b3a368;
+    border-bottom: #b3a368 solid 0.25rem;
 }
 
 li a:hover:not(.active) {
-    color: #ffca74;
-    box-shadow: none;
+    color: #b3a368;
 }
 
 .header {
-    z-index: 1;
+    margin-bottom: 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     animation: slideDown 1s;
+    z-index: 1;
     position: relative;
+    line-height: 5rem;
+}
+
+.subheader {
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+    animation: slideDown 1s;
+    z-index: 1;
+    position: relative;
+}
+
+p {
+    margin: 4rem 4rem 0 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.courseList {
+    padding-top: 0.5rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+.courseList li {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
