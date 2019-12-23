@@ -1,0 +1,33 @@
+.card {
+    width: fit-content;
+    padding: 1rem;
+    box-shadow: 0 0 10px black;
+    border-radius: 0.25rem;
+    margin: 1rem auto;
+    background: linear-gradient(to bottom,#0b4c2e,#2e825b);
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    width: 25rem;
+    border: solid #b3a368 0.25rem;
+}
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card li {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+.tutor-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
