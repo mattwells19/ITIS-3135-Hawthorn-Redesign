@@ -13,21 +13,24 @@ body {
     background-color: lightgray;
 }
 
-.nav ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-}
+/* Nav Bar Styles */
 
 .nav {
     position: relative;
     height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     background: linear-gradient(to bottom,#205c40, #0b4c2e);
     box-shadow: 0 0 10px 0 black;
     z-index: 2;
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
+    padding: 0.5rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 .nav p {
@@ -36,14 +39,32 @@ body {
     font-size: 1.5rem;
 }
 
+.nav img {
+    width: 128px;
+    height: 56px;
+}
+
+.nav h1, h3 {
+    margin: 0;
+}
+
+.uncc-logo {
+    margin: auto 1rem;
+}
+
 .nav-header {
     text-align: center;
     color: white;
-    margin-left: 10%;
+    letter-spacing: 1px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin: auto;
 }
 
+/* Nav Links */
+
 li a {
-    margin: 2rem;
+    margin: 1rem;
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -59,14 +80,16 @@ li a:hover:not(.active) {
     color: #b3a368;
 }
 
+/* Main Content */
+
 .header {
-    margin-bottom: 0;
+    margin: 1rem auto;
     text-align: center;
     font-size: 4rem;
     animation: slideDown 1s;
     z-index: 1;
     position: relative;
-    line-height: 5rem;
+    font-family: 'Oswald';
 }
 
 .subheader {
@@ -76,21 +99,11 @@ li a:hover:not(.active) {
     animation: slideDown 1s;
     z-index: 1;
     position: relative;
+    font-family: 'Oswald';
 }
 
 p {
-    margin: 4rem 4rem 0 4rem;
+    margin: 2rem 4rem 0 4rem;
     font-size: 2rem;
     text-align: center;
-}
-
-.courseList {
-    padding-top: 0.5rem;
-    list-style-type: none;
-    text-align: center;
-}
-
-.courseList li {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
 }

@@ -4,14 +4,14 @@
     box-shadow: 0 0 10px black;
     border-radius: 0.25rem;
     margin: 1rem auto;
-    background: linear-gradient(to bottom,#0b4c2e,#2e825b);
+    display: flex;
 }
 
 .card img {
     display: block;
     margin: auto;
     width: 25rem;
-    border: solid #b3a368 0.25rem;
+    border: solid black 0.25rem;
 }
 
 .card h2 {
@@ -27,7 +27,12 @@
     padding: 0.5rem;
 }
 
-.tutor-cards {
-    display: flex;
-    justify-content: space-evenly;
+.card ul {
+    list-style-type: none;
+}
+
+.card-content {
+    display: block;
+    margin-left: 3rem;
+    width: 35rem;
 }
