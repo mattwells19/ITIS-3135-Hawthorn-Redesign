@@ -15,7 +15,7 @@ figcaption {
 	text-align: center;
 	font-size: x-large;
 	font-weight: bold;
-	margin-top: 10px;
+	padding-top: 10px;
 }
 
 table 
@@ -53,7 +53,7 @@ tbody tr:nth-child(even) td
 	background-color: yellow;
 }
 
-#editorial, #marketing, #customer-service
+tbody tr th:only-of-type
 {
 	font-weight: bold;
 	background-color: white;
