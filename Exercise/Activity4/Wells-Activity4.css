@@ -2,24 +2,10 @@ body {
     background-color: #fcb5c8;
 }
 
-address {
-    background-color: #c08696;
-}
-
-.begin-and-end {
-    background-color: #9b575e;
-    padding: 5px;
-}
-
 header img {
     float: left;
     margin: 0;
     margin-right: 20px;
-}
-
-address {
-    padding: 5px;
-    margin-bottom: 5px;
 }
 
 header h1, header h2 {
@@ -28,6 +14,17 @@ header h1, header h2 {
 
 #categories {
     margin-bottom: 0;
+}
+
+.begin-and-end {
+    background-color: #9b575e;
+    padding: 5px;
+}
+
+address {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #c08696;
 }
 
 footer a {
