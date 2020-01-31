@@ -1,0 +1,65 @@
+/*ITIS 3235 Activity 5 css file*/
+
+body
+ {
+    font-family:"arial";
+}
+        
+/*Make it look more like a calculator*/
+#calc
+{
+	width:250px;
+    background-color:#cccccc;
+    text-align:center;
+    border:outset;
+    padding:5px;
+}
+        
+/*Change the style of all input elements*/
+input
+{
+    font-family:"Courier New";
+    opacity: 0.8;
+    border-radius: 2px;
+    background-color: white;
+    border-width: 1px;
+}
+
+/* Add effect on hover */
+input:hover {
+    opacity: 1;
+}
+
+/* Styles for text box */
+input[type="text"] {
+    font-size: 2rem;
+    width: 90%;
+    text-align: right;
+}
+
+/* Styles for the buttons */
+input[type="button"] {
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+/* Styles for the calculate button */
+input[value="Calculate"] {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid blue;
+    color: blue;
+}
+
+/* Style for placeholder to show disabled */
+input[value=" "] {
+    opacity: 0.5;
+}
+
+/* Style applied to numbered buttons */
+input.btnNumber {
+    border: 2px solid #15819a;
+}
