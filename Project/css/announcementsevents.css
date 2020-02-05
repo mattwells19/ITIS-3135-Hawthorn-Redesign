@@ -1,0 +1,30 @@
+.event-container {
+  display: flex;
+  margin: 3rem;
+}
+
+.event-content {
+  margin: 5rem 1rem;
+  display: block;
+  width: 40%;
+  text-align: right;
+}
+
+.event-content h4 {
+  margin-bottom: 4rem;
+}
+
+.event-content p,
+.event-content strong {
+  text-align: left;
+  display: block;
+}
+
+main section {
+  margin-bottom: 5rem;
+}
+
+.section-header {
+  border-bottom: 3px solid #004525;
+  line-height: 7rem;
+}

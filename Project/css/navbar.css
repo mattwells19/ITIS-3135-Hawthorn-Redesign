@@ -17,6 +17,7 @@ nav.side-nav ul li {
   padding: 1rem;
   position: relative;
   transition: background-color linear 100ms;
+  user-select: none;
 }
 
 nav.side-nav ul a {
@@ -25,7 +26,7 @@ nav.side-nav ul a {
 }
 
 nav.side-nav ul li:not(.active):hover {
-  background-color: #b3a369;
+  background-color: #cfcfcf;
 }
 
 nav.side-nav li.active {
@@ -61,4 +62,5 @@ ul.nav-sub-menu.open {
   position: absolute;
   right: 2rem;
   transition: transform linear 250ms;
+  user-select: none;
 }
