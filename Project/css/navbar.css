@@ -28,13 +28,9 @@ nav.side-nav ul li:not(.active):hover {
   background-color: #b3a369;
 }
 
-nav.side-nav ul a:first-child {
-  margin-top: 2px;
-}
-
 nav.side-nav li.active {
-  border: solid 2px green;
-  border-left: solid 5px green;
+  border: solid 2px #004525;
+  border-left: solid 5px #004525;
 }
 
 ul.nav-sub-menu {
@@ -56,43 +52,13 @@ ul.nav-sub-menu.open {
   overflow: hidden;
 }
 
+ul.nav-sub-menu.open {
+  height: 13rem;
+  overflow: hidden;
+}
+
 .menu-arrow {
   position: absolute;
   right: 2rem;
   transition: transform linear 250ms;
-}
-
-.section-header {
-  border-bottom: 3px solid #004525;
-  display: flex;
-  line-height: 7rem;
-}
-
-p {
-  line-height: 2;
-}
-
-section.in-charge {
-  display: flex;
-  flex-direction: column;
-}
-
-section.in-charge > div {
-  margin: 1rem;
-}
-
-section.in-charge > div > img {
-  width: 22rem;
-  height: 30rem;
-  float: left;
-  margin-right: 1rem;
-}
-
-section.in-charge > div > p > img,
-section.in-charge > div > a > img {
-  margin-right: 1rem;
-}
-
-section.in-charge > div > p {
-  margin: 0;
 }

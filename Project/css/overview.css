@@ -1,0 +1,34 @@
+.section-header {
+  border-bottom: 3px solid #004525;
+  display: flex;
+  line-height: 7rem;
+}
+
+p {
+  line-height: 2;
+}
+
+section.in-charge {
+  display: flex;
+  flex-direction: column;
+}
+
+section.in-charge > div {
+  margin: 1rem;
+}
+
+section.in-charge > div > img {
+  width: 22rem;
+  height: 30rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+section.in-charge > div > p > img,
+section.in-charge > div > a > img {
+  margin-right: 1rem;
+}
+
+section.in-charge > div > p {
+  margin: 0;
+}

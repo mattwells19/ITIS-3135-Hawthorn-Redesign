@@ -1,0 +1,65 @@
+.operation-hours {
+  margin-top: 2px;
+  background-color: #e7e7e7;
+  display: flex;
+}
+
+.operation-hours ul {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+#days li {
+  list-style: none;
+  color: #004525;
+  text-align: left;
+  margin: 0.5rem;
+}
+
+#times li {
+  list-style: none;
+  color: #333333;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.section-header {
+  border-bottom: 3px solid #004525;
+  line-height: 7rem;
+}
+
+.slideshow-container {
+  background-color: #e7e7e7;
+  width: 50rem;
+  height: 50rem;
+  margin: auto;
+}
+
+main section {
+  margin-bottom: 5rem;
+}
+
+.queen-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.queen-content p {
+  width: 55%;
+}
+
+.designChallenge-content {
+  text-align: center;
+  margin: auto;
+}
+
+.previous-winner {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.previous-winner h4 {
+  margin: 1rem;
+  margin-top: 6rem;
+}
