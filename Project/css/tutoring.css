@@ -1,0 +1,93 @@
+.section-header {
+  border-bottom: 3px solid #004525;
+  line-height: 7rem;
+}
+
+section.about-tutoring ul {
+  list-style: square;
+}
+
+section.about-tutoring ul li {
+  margin: 1rem;
+}
+
+.tutor-card {
+  border: 2px solid black;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  position: relative;
+}
+
+.tutor-card p {
+  width: 90%;
+}
+
+.tutor-hours {
+  position: absolute;
+  background-color: #e7e7e7;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 10px black;
+  height: 95%;
+  width: 3rem;
+  right: 0;
+  top: 1rem;
+  transition: width ease-in-out 500ms;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}
+
+.hours-content {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.tutor-hours img {
+  transition: transform linear 100ms;
+  transform: rotate(90deg);
+}
+
+.tutor-hours.open img {
+  transform: rotate(270deg);
+}
+
+.tutor-hours.open {
+  width: 42rem;
+}
+
+.tutor-hours h2 {
+  padding: 1rem;
+  text-align: center;
+  background-color: #004525;
+  color: #ffffff;
+}
+
+.operation-hours {
+  margin-top: 2px;
+  background-color: #e7e7e7;
+  display: flex;
+  margin: auto;
+}
+
+.operation-hours ul {
+  padding: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#days li {
+  list-style: none;
+  color: #004525;
+  text-align: left;
+  margin: 0.5rem;
+}
+
+#times li,
+#location li {
+  list-style: none;
+  color: #333333;
+  text-align: center;
+  margin: 0.5rem;
+}
