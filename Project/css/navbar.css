@@ -1,4 +1,5 @@
 aside {
+  max-width: 30rem;
   flex-basis: 85%;
 }
 

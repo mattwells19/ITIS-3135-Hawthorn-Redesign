@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .section-header {
   border-bottom: 3px solid #004525;
   line-height: 7rem;
