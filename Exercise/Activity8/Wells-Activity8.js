@@ -24,15 +24,20 @@ const showResult = e => {
 const displayHeight = e => {
   var table = $("height_table");
 
+  // Every time we want to display heights we need to first
+  // clear the contents of the table
   table.innerHTML = "";
 
+  // The header for the heights section
   const header = document.createElement("h2");
   header.textContent = "Heights";
   table.appendChild(header);
 
+  // Header row
   table.insertRow(0).innerHTML = `<th style='text-align: left'>Names</th>
     <th style='text-align: left'>Heights</th>`;
 
+  // Add array values to table
   for (var i = 0; i < names.length; i++) {
     var row = table.insertRow();
     row.insertCell(0).innerHTML = names[i];
@@ -55,6 +60,8 @@ const addHeight = e => {
   } else {
     names.push(nameInput);
     height.push(parseInt(heightInput));
+
+    // Once recorded, clear text inputs and focus name input
     $("name").value = "";
     $("height").value = "";
     $("name").focus();
