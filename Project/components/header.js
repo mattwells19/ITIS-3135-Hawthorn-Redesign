@@ -29,11 +29,10 @@ document.getElementById("header").innerHTML = `
             </div>
         </div>
         <div class="search dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" aria-label="Dropdown"
+            <button id="headerCampusResourcesBtn" class="btn btn-primary dropdown-toggle" type="button" aria-label="Dropdown"
                 data-toggle="dropdown">
                 Campus Resources <span class="glyphicon glyphicon-plus-sign"></span></button>
-            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger"></span></a> -->
-            <div class="dropdown-menu uncc-dropdown-menu">
+            <div id="headerCampusResourcesSection" class="dropdown-menu uncc-dropdown-menu">
                 <div class="container-fluid">
                     <!-- Icons -->
                     <div class="container">
@@ -153,92 +152,92 @@ document.getElementById("header").innerHTML = `
             <div class="navbar-collapse collapse" id="main-nav-collapse">
                 <nav role="navigation">
                     <ul class="menu nav navbar-nav">
-                        <li class="first expanded dropdown"><a href="/engage-me/3" data-target="#"
+                        <li class="first expanded dropdown"><a href="https://osds.uncc.edu/engage-me/3" data-target="#"
                                 class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Engage ME!
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="first leaf"><a href="/engage-me/about-engage-me">About Engage ME!</a>
+                                <li class="first leaf"><a href="https://osds.uncc.edu/engage-me/about-engage-me">About Engage ME!</a>
                                 </li>
                                 <li class="leaf"><a
-                                        href="/engage-me/first-year/useful-links-freshmen-engineering-students"
+                                        href="https://osds.uncc.edu/engage-me/first-year/useful-links-freshmen-engineering-students"
                                         title="Useful Links for Freshman Engineering Students">Useful Links for
                                         Freshman Engineering Students</a></li>
-                                <li class="leaf"><a href="/engage-me/resources-support"
+                                <li class="leaf"><a href="https://osds.uncc.edu/engage-me/resources-support"
                                         title="Resources and Support">Resources and Support</a></li>
-                                <li class="leaf"><a href="/engage-me/student-success-strategies">Student Success
+                                <li class="leaf"><a href="https://osds.uncc.edu/engage-me/student-success-strategies">Student Success
                                         Strategies</a></li>
-                                <li class="last leaf"><a href="/directory-list/engage-me%21" title="">Contact
+                                <li class="last leaf"><a href="https://osds.uncc.edu/directory-list/engage-me%21" title="">Contact
                                         Us</a></li>
                             </ul>
                         </li>
-                        <li class="expanded active-trail active dropdown"><a href="/freshman-learning-community"
+                        <li class="expanded active-trail active dropdown"><a href="https://osds.uncc.edu/freshman-learning-community"
                                 title="" class="active-trail dropdown-toggle" data-target="#"
                                 data-toggle="dropdown" data-hover="dropdown">Freshman Learning Community <span
                                     class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class="first leaf active-trail active active"><a
-                                        href="/freshman-learning-community/overview"
+                                        href="Overview.html"
                                         class="active-trail active-trail active">Overview</a></li>
                                 <li class="collapsed"><a
-                                        href="/freshman-learning-community/current-students">Current
+                                        href="Overview.html">Current
                                         Students</a></li>
                                 <li class="collapsed"><a
-                                        href="/freshman-learning-community/prospective-students">Prospective
+                                        href="Overview.html">Prospective
                                         Students</a></li>
-                                <li class="leaf"><a href="/freshman-learning-community/parents">For Parents</a>
+                                <li class="leaf"><a href="Overview.html">For Parents</a>
                                 </li>
-                                <li class="leaf"><a href="/freshman-learning-community/forms">Forms</a></li>
-                                <li class="last leaf"><a href="/directory-list/freshman-learning-community"
+                                <li class="leaf"><a href="https://osds.uncc.edu/freshman-learning-community/forms">Forms</a></li>
+                                <li class="last leaf"><a href="https://osds.uncc.edu/directory-list/freshman-learning-community"
                                         title="">Contact Us</a></li>
                             </ul>
                         </li>
-                        <li class="expanded dropdown"><a href="/leadership-academy" title="" data-target="#"
+                        <li class="expanded dropdown"><a href="https://osds.uncc.edu/leadership-academy" title="" data-target="#"
                                 class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Leadership
                                 Academy <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="first collapsed"><a href="/leadership-academy/about">About</a></li>
-                                <li class="collapsed"><a href="/leadership-academy/industry-support">Industry
+                                <li class="first collapsed"><a href="https://osds.uncc.edu/leadership-academy/about">About</a></li>
+                                <li class="collapsed"><a href="https://osds.uncc.edu/leadership-academy/industry-support">Industry
                                         Support</a></li>
                                 <li class="collapsed"><a
-                                        href="/leadership-academy/testimonials">Testimonials</a></li>
-                                <li class="collapsed"><a href="/leadership-academy/apply-academy">Apply to the
+                                        href="https://osds.uncc.edu/leadership-academy/testimonials">Testimonials</a></li>
+                                <li class="collapsed"><a href="https://osds.uncc.edu/leadership-academy/apply-academy">Apply to the
                                         Academy</a></li>
-                                <li class="last leaf"><a href="/directory-list/leadership-academy"
+                                <li class="last leaf"><a href="https://osds.uncc.edu/directory-list/leadership-academy"
                                         title="">Contact Us</a></li>
                             </ul>
                         </li>
-                        <li class="expanded dropdown"><a href="/maps-program" title="" data-target="#"
+                        <li class="expanded dropdown"><a href="https://osds.uncc.edu/maps-program" title="" data-target="#"
                                 class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">MAPS
                                 Program <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="first leaf"><a href="/maps-program/mission" title="">Mission</a></li>
-                                <li class="leaf"><a href="/maps-program/transition-coaching" title="">Transition
+                                <li class="first leaf"><a href="https://osds.uncc.edu/maps-program/mission" title="">Mission</a></li>
+                                <li class="leaf"><a href="https://osds.uncc.edu/maps-program/transition-coaching" title="">Transition
                                         Coaching</a></li>
-                                <li class="leaf"><a href="/maps-program/supplemental-instruction">Peer Assisted
+                                <li class="leaf"><a href="https://osds.uncc.edu/maps-program/supplemental-instruction">Peer Assisted
                                         Learning</a></li>
-                                <li class="leaf"><a href="/maps-program/leadership-opportunities">Leadership
+                                <li class="leaf"><a href="https://osds.uncc.edu/maps-program/leadership-opportunities">Leadership
                                         Opportunities</a></li>
-                                <li class="leaf"><a href="/maps-program/student-resources">Student Resources</a>
+                                <li class="leaf"><a href="https://osds.uncc.edu/maps-program/student-resources">Student Resources</a>
                                 </li>
-                                <li class="leaf"><a href="/maps-program/student-organizations" title="">Student
+                                <li class="leaf"><a href="https://osds.uncc.edu/maps-program/student-organizations" title="">Student
                                         Organizations</a></li>
-                                <li class="leaf"><a href="/maps-program/maps-program-brochure">MAPS Program
+                                <li class="leaf"><a href="https://osds.uncc.edu/maps-program/maps-program-brochure">MAPS Program
                                         Brochure</a></li>
-                                <li class="last leaf"><a href="/directory-list/maps-program" title="">Contact
+                                <li class="last leaf"><a href="https://osds.uncc.edu/directory-list/maps-program" title="">Contact
                                         Us</a></li>
                             </ul>
                         </li>
-                        <li class="expanded dropdown"><a href="/we-engage"
+                        <li class="expanded dropdown"><a href="https://osds.uncc.edu/we-engage"
                                 title="Program for Women in Engineering, Engineering Technology, and Construction Management"
                                 data-target="#" class="dropdown-toggle" data-toggle="dropdown"
                                 data-hover="dropdown">WE Engage! <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="first last leaf"><a href="/we-engage/about-we-engage"
+                                <li class="first last leaf"><a href="https://osds.uncc.edu/we-engage/about-we-engage"
                                         title="About the Women in Engineering, Engineering Technology, and Construction Management Program">About
                                         WE Engage!</a></li>
                             </ul>
                         </li>
-                        <li class="last leaf"><a href="/directory-box/faculty-and-staff" title="">Faculty and
+                        <li class="last leaf"><a href="https://osds.uncc.edu/directory-box/faculty-and-staff" title="">Faculty and
                                 Staff</a></li>
                     </ul>
                 </nav>

@@ -65,3 +65,19 @@ ul.nav-sub-menu.open {
   transition: transform linear 250ms;
   user-select: none;
 }
+
+/* Footer animation styling */
+#collapseOne {
+  overflow: hidden;
+  transition: height ease-in-out 200ms, padding linear 200ms;
+}
+
+#collapseOne:not(.expanded) {
+  padding: 0 !important;
+  height: 0;
+}
+
+#collapseOne.expanded {
+  padding: 30px 0;
+  height: 30rem;
+}

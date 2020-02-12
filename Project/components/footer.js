@@ -5,7 +5,7 @@ document.getElementById("footer").innerHTML = `
     <div class="heading-wrapper">
         <div class="panel-heading container">
             <div class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                <a id="footerExtra" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
                     href="#collapseOne">Additional Campus Resources</a>
             </div>
             <div class="pull-right">
@@ -15,7 +15,7 @@ document.getElementById("footer").innerHTML = `
             </div>
         </div>
     </div> <!-- end heading wrapper -->
-    <div id="collapseOne" class="panel-collapse container collapse panel-body">
+    <div id="collapseOne" class="container panel-body expanded">
         <!-- Footer left column -->
         <div class="col-sm-4" id="footer-campus-links">
             <h2>Campus Links</h2>
@@ -88,16 +88,3 @@ document.getElementById("footer").innerHTML = `
 <!--/#footer-container -->
 </footer>
 `;
-
-window.onload = () => {
-  document.getElementById("accordian").onclick = handleFooterClick;
-}
-
-var handleFooterClick = () => {
-  var footerExtra = document.getElementById("collapseOne");
-  if (footerExtra.className.includes(" in")) {
-    footerExtra.className = footerExtra.className.replace(" in", "");
-  } else {
-    footerExtra.className += " in";
-  }
-}
