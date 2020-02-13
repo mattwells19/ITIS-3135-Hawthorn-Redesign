@@ -91,16 +91,7 @@
     <div class="main-container container">
       <div class="row">
         <!-- Page breadcrumb -->
-        <ol class="breadcrumb">
-          <li>
-            <a href="https://osds.uncc.edu/">
-              Home
-            </a>
-          </li>
-          <li class="active">
-            Freshman Learning Community
-          </li>
-        </ol>
+        <ol id="breadcrumbs" class="breadcrumb"></ol>
 
         <h1 class="page-header">Freshman Learning Community</h1>
 
@@ -118,44 +109,7 @@
                   </a>
                 </h2>
 
-                <nav class="side-nav">
-                  <ul>
-                    <li class="active" style="margin-top: 2px;">Overview</li>
-                    <li onclick="handleNavMenuClick('current')">
-                      Current Students
-                      <img
-                        class="menu-arrow current"
-                        src="icons/down-arrow.svg"
-                        alt="menu arrow"
-                      />
-                    </li>
-                    <ul class="nav-sub-menu current-menu">
-                      <a href="CurrentStudents/CreativityLab.html"
-                        ><li>Creativity Lab</li></a
-                      >
-                      <a href="CurrentStudents/AnnouncementsEvents.html"
-                        ><li>Announcements/Events</li></a
-                      >
-                      <a href="CurrentStudents/Tutoring.html"
-                        ><li>Tutoring</li></a
-                      >
-                    </ul>
-                    <li onclick="handleNavMenuClick('prospective')">
-                      Prospective Students
-                      <img
-                        class="menu-arrow prospective"
-                        src="icons/down-arrow.svg"
-                        alt="menu arrow"
-                      />
-                    </li>
-                    <ul class="nav-sub-menu prospective-menu">
-                      <a><li>How to Apply</li></a>
-                      <a><li>Testimonials</li></a>
-                      <a><li>FAQ</li></a>
-                    </ul>
-                    <a><li>Parents</li></a>
-                  </ul>
-                </nav>
+                <nav id="side-navbar" class="side-nav"></nav>
               </section>
 
               <!-- Org Tree -->

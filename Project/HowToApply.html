@@ -73,16 +73,12 @@
     />
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="../css/announcementsevents.css"
-    />
-    <link type="text/css" rel="stylesheet" href="../css/navbar.css" />
-    <script src="../js/navbar.js"></script>
-    <script async src="../js/onload.js"></script>
-    <script async src="../components/header.js"></script>
-    <script async src="../components/footer.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/announcementsevents.css" />
+    <link type="text/css" rel="stylesheet" href="css/navbar.css" />
+    <script src="js/navbar.js"></script>
+    <script async src="js/onload.js"></script>
+    <script async src="components/header.js"></script>
+    <script async src="components/footer.js"></script>
   </head>
 
   <body
@@ -95,24 +91,7 @@
     <div class="main-container container">
       <div class="row">
         <!-- Page breadcrumb -->
-        <ol class="breadcrumb">
-          <li>
-            <a href="https://osds.uncc.edu/">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="../Overview.html" title="" class="active-trail">
-              Freshman Learning Community
-            </a>
-          </li>
-          <li class="active">
-            Current Students
-          </li>
-          <li class="active">
-            Announcements and Events
-          </li>
-        </ol>
+        <ol id="breadcrumbs" class="breadcrumb"></ol>
 
         <h1 class="page-header">Announcements and Events</h1>
 
@@ -125,21 +104,21 @@
                 class="block block-menu-block clearfix"
               >
                 <h2 class="block-title">
-                  <a href="../Overview.html" title="" class="active-trail">
+                  <a href="Overview.html" title="" class="active-trail">
                     Freshman Learning Community
                   </a>
                 </h2>
 
                 <nav class="side-nav">
                   <ul>
-                    <a href="../Overview.html"
+                    <a href="Overview.html"
                       ><li style="margin-top: 2px;">Overview</li></a
                     >
                     <li onclick="handleNavMenuClick('current')">
                       Current Students
                       <img
                         class="menu-arrow current"
-                        src="../icons/down-arrow.svg"
+                        src="icons/down-arrow.svg"
                         alt="menu arrow"
                         style="transform: rotate(-180deg);"
                       />
@@ -153,7 +132,7 @@
                       Prospective Students
                       <img
                         class="menu-arrow prospective"
-                        src="../icons/down-arrow.svg"
+                        src="icons/down-arrow.svg"
                         alt="menu arrow"
                       />
                     </li>
