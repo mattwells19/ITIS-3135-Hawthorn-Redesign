@@ -247,3 +247,13 @@ document.getElementById("header").innerHTML = `
 </div>
 </header>
 `;
+
+var handleCampusResourcesClick = () => {
+  var section = document.getElementById("headerCampusResourcesSection");
+  if (section.style.display === "block") section.style.display = "none";
+  else section.style.display = "block";
+};
+
+document.getElementById(
+  "headerCampusResourcesBtn"
+).onclick = handleCampusResourcesClick;
