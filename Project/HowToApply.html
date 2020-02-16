@@ -73,7 +73,7 @@
     />
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/announcementsevents.css" />
+    <link type="text/css" rel="stylesheet" href="css/howToApply.css" />
     <link type="text/css" rel="stylesheet" href="css/navbar.css" />
     <script src="js/navbar.js"></script>
     <script async src="js/onload.js"></script>
@@ -93,7 +93,7 @@
         <!-- Page breadcrumb -->
         <ol id="breadcrumbs" class="breadcrumb"></ol>
 
-        <h1 class="page-header">Announcements and Events</h1>
+        <h1 class="page-header">How to Apply</h1>
 
         <div style="display: flex;">
           <!-- Side Navigation -->
@@ -103,122 +103,137 @@
                 id="block-menu-block-1"
                 class="block block-menu-block clearfix"
               >
-                <h2 class="block-title">
-                  <a href="Overview.html" title="" class="active-trail">
-                    Freshman Learning Community
-                  </a>
-                </h2>
-
-                <nav class="side-nav">
-                  <ul>
-                    <a href="Overview.html"
-                      ><li style="margin-top: 2px;">Overview</li></a
-                    >
-                    <li onclick="handleNavMenuClick('current')">
-                      Current Students
-                      <img
-                        class="menu-arrow current"
-                        src="icons/down-arrow.svg"
-                        alt="menu arrow"
-                        style="transform: rotate(-180deg);"
-                      />
-                    </li>
-                    <ul class="nav-sub-menu current-menu open">
-                      <a href="CreativityLab.html"><li>Creativity Lab</li></a>
-                      <li class="active">Announcements/Events</li>
-                      <a href="./Tutoring.html"><li>Tutoring</li></a>
-                    </ul>
-                    <li onclick="handleNavMenuClick('prospective')">
-                      Prospective Students
-                      <img
-                        class="menu-arrow prospective"
-                        src="icons/down-arrow.svg"
-                        alt="menu arrow"
-                      />
-                    </li>
-                    <ul class="nav-sub-menu prospective-menu">
-                      <a><li>How to Apply</li></a>
-                      <a><li>Testimonials</li></a>
-                      <a><li>FAQ</li></a>
-                    </ul>
-                    <a><li>Parents</li></a>
-                  </ul>
-                </nav>
+                <nav id="side-navbar" class="side-nav"></nav>
               </section>
             </div>
           </aside>
 
           <!-- Content goes here -->
           <main>
-            <!-- Announcements Section -->
+            <!-- Explore FLC Section -->
             <section>
-              <h2 class="section-header">🚨 Announcements 🚨</h2>
+              <h2 class="section-header">Explore the FLC Before Applying</h2>
+              <div class="explore-area">
+                <h3>Explore</h3>
+                <p>
+                  The College of Engineering Learning Community (FLC) offers
+                  students a unique opportunity for successfully completing
+                  their degree. With the challenges of the rigorous curriculum,
+                  the first year of college can be very demanding. Therefore,
+                  FLC participants learn what it takes to achieve excellence
+                  with the support of a tight-knit community of persevering
+                  students who share common goals and interests.
+                </p>
+                <ul>
+                  <li>Date here</li>
+                  <li>Date here</li>
+                  <li>Date here</li>
+                </ul>
+              </div>
+              <div class="explore-area">
+                <h3>Open House</h3>
+                <p>
+                  The College of Engineering Learning Community (FLC) offers
+                  students a unique opportunity for successfully completing
+                  their degree. With the challenges of the rigorous curriculum,
+                  the first year of college can be very demanding. Therefore,
+                  FLC participants learn what it takes to achieve excellence
+                  with the support of a tight-knit community of persevering
+                  students who share common goals and interests.
+                </p>
+                <ul>
+                  <li>Date here</li>
+                  <li>Date here</li>
+                  <li>Date here</li>
+                </ul>
+              </div>
+              <div class="explore-area">
+                <h3 id="tour">Interactive Virtual Tour</h3>
+                <a href="http://panorama.uncc.edu/h3/index.html" class="btn1">
+                  Click here to start the tour!
+                </a>
+              </div>
+            </section>
+
+            <!-- How to Apply Section -->
+            <section class="apply">
+              <h2 class="section-header">How to Apply</h2>
               <p>
-                The College of Engineering Learning Community (FLC) offers
-                students a unique opportunity for successfully completing their
-                degree. With the challenges of the rigorous curriculum, the
-                first year of college can be very demanding. Therefore, FLC
-                participants learn what it takes to achieve excellence with the
-                support of a tight-knit community of persevering students who
-                share common goals and interests.
+                Apply to the Engineering Freshman Learning Community (FLC)
+                between January 12th and July 1st. Engineering students are not
+                automatically housed in the Engineering FLC. If you have been
+                accepted to UNC Charlotte's Lee College of Engineering as a
+                freshman, you are eligible to live in the FLC. Beds are on a
+                first-come-first-served basis so apply early!
               </p>
+              <img src="images/lc-logo.png" alt="FLC Logo" />
+              <ol class="steps">
+                <li>
+                  <strong>Housing Application:</strong> Complete Housing
+                  Application and pay the $200 deposit.
+                  <a href="https://housing.uncc.edu/apply" class="btn1">
+                    Housing Application
+                  </a>
+                </li>
+                <li>
+                  <strong>Learning Community Application:</strong> Complete the
+                  Learning Community Application.
+                  <a href="https://lc.uncc.edu/" class="btn1">
+                    Learning Community Application
+                  </a>
+                </li>
+                <li>
+                  <strong>Accept the Offer:</strong> It typically takes a week
+                  to review the applications and respond with an offer. To hold
+                  your room, when offered a space in the FLC program, you need
+                  to go back into the LC application and accept the offer.
+                </li>
+                <li>
+                  <strong>Roommate Requests:</strong> If you would like to make
+                  a roommate request, each roommate must submit a form
+                  requesting each other. Roommate request forms must be
+                  submitted by June 1. If no roommate request form is submitted
+                  or if each student involved fails to submit a form, roommates
+                  will be assigned by Housing. Roommate Request forms must be
+                  emailed to
+                  <a href="mailto:coe-flc@uncc.edu">COE-FLC@uncc.edu</a>.
+                  <a
+                    href="https://osds.uncc.edu/sites/osds.uncc.edu/files/media/2018-2019%20Roommate%20Request%20Form%20%281%29.pdf"
+                    class="btn1"
+                  >
+                    Roommate Request Form
+                  </a>
+                </li>
+              </ol>
             </section>
 
-            <!-- Upcoming Events Section -->
-            <section>
-              <h2 class="section-header">Upcoming Events</h2>
-              <div class="event-container">
-                <div class="event-content">
-                  <h3>Name of Event</h3>
-                  <h4>RA name here</h4>
-                  <strong>Event Details:</strong>
-                  <p>
-                    Mei clita invenire et. Pro cu dicunt prodesset. Sea meis
-                    option persius cu, an tale graecis adipisci vix. Ius at
-                    malis reprehendunt, cum at mundi soleat adversarium.
-                  </p>
-                </div>
-                <div
-                  style="background-color: #e7e7e7; width: 40rem; height: 50rem;"
-                ></div>
-              </div>
-              <div class="event-container">
-                <div class="event-content">
-                  <h3>Name of Event</h3>
-                  <h4>RA name here</h4>
-                  <strong>Event Details:</strong>
-                  <p>
-                    Mei clita invenire et. Pro cu dicunt prodesset. Sea meis
-                    option persius cu, an tale graecis adipisci vix. Ius at
-                    malis reprehendunt, cum at mundi soleat adversarium.
-                  </p>
-                </div>
-                <div
-                  style="background-color: #e7e7e7; width: 40rem; height: 50rem;"
-                ></div>
-              </div>
-              <div class="event-container">
-                <div class="event-content">
-                  <h3>Name of Event</h3>
-                  <h4>RA name here</h4>
-                  <strong>Event Details:</strong>
-                  <p>
-                    Mei clita invenire et. Pro cu dicunt prodesset. Sea meis
-                    option persius cu, an tale graecis adipisci vix. Ius at
-                    malis reprehendunt, cum at mundi soleat adversarium.
-                  </p>
-                </div>
-                <div
-                  style="background-color: #e7e7e7; width: 40rem; height: 50rem;"
-                ></div>
-              </div>
+            <!-- More Info Section -->
+            <section class="more-info">
+              <h2 class="section-header">Need More Information?</h2>
+              <ul>
+                <li>Visit our <a href="FAQ.html">FAQ</a></li>
+                <li>
+                  Visit the
+                  <a href="https://lc.uncc.edu/"
+                    >UNCC Learning Community's Website</a
+                  >
+                </li>
+                <li>
+                  Contact the Director of the FLC Meg Harkins or the FLC Program
+                  Coordinator Yolonda Mcilwaine:
+                  <ul>
+                    <li>
+                      Meg Harkins:
+                      <a href="mharkins@uncc.edu">mharkins@uncc.edu</a>
+                    </li>
+                    <li>
+                      Yolonda Mcilwaine:
+                      <a href="ymcilwai@uncc.edu">ymcilwai@uncc.edu</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </section>
-
-            <!-- Queen of Robots Section -->
-            <section></section>
-
-            <!-- Design Challenges Section -->
-            <section></section>
           </main>
         </div>
 

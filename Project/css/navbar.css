@@ -1,6 +1,5 @@
 aside {
-  max-width: 30rem;
-  flex-basis: 85%;
+  min-width: 30rem;
 }
 
 aside section {

@@ -130,7 +130,7 @@ document.getElementById("header").innerHTML = `
         </a>
         <!-- Print site title -->
         <div id="title-with-subbrand">
-            <div><a class="name navbar-brand with-subbrand" href="/" title="Home">The Office of Student
+            <div><a class="name navbar-brand with-subbrand" href="https://osds.uncc.edu" title="Home">The Office of Student
                     Development and Success</a></div><a class="subbrand" href="https://engr.uncc.edu"
                 title="The William States Lee College of Engineering">The William States Lee College of
                 Engineering</a>

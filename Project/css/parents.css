@@ -1,0 +1,32 @@
+.section-header {
+  border-bottom: 3px solid #004525;
+  display: flex;
+  line-height: 7rem;
+}
+
+.content p {
+  flex-basis: 30%;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px black;
+  margin-bottom: 20px;
+  line-height: 3rem;
+  background-color: white;
+  transition: transform ease-in-out 500ms;
+}
+
+.content p:hover,
+.content p:focus {
+  transform: scale(1.5);
+}
+
+.content.bottom p:hover,
+.content.bottom p:focus {
+  transform: scale(1.5) translateY(-10rem);
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}

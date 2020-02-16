@@ -1,0 +1,34 @@
+section {
+  margin-bottom: 5rem;
+}
+
+.section-header {
+  border-bottom: 3px solid #004525;
+  line-height: 7rem;
+}
+
+section.about-testimonial ul {
+  list-style: square;
+}
+
+section.about-testimonial ul li {
+  margin: 1rem;
+}
+
+.testimonial-card {
+  border: 2px solid black;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  position: relative;
+}
+
+.testimonial-card p {
+  width: 90%;
+  font-style: oblique;
+}
+
+.testimonial-card p::before,
+.testimonial-card p::after {
+  content: '"';
+}

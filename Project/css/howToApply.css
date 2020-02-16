@@ -1,0 +1,73 @@
+.explore-area {
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+}
+
+.explore-area ul {
+  margin-left: 3rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+.section-header {
+  border-bottom: 3px solid #004525;
+  line-height: 7rem;
+}
+
+h3#tour {
+  margin-bottom: 3rem;
+}
+
+.btn1 {
+  margin: 0 20px 10px 2rem;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #164b2e;
+  color: #ffffff !important;
+  border: solid 2px #164b2e;
+  font-weight: bold;
+  text-decoration: none !important;
+  font-size: 1.4rem;
+}
+
+.btn1:hover {
+  background-color: #ffffff;
+  color: #164b2e !important;
+  border: solid 2px #164b2e;
+}
+
+.apply img {
+  display: block;
+  margin: 2rem auto;
+}
+
+.apply .btn1 {
+  display: block;
+  width: fit-content;
+}
+
+.steps li {
+  margin: 4rem 1rem;
+}
+
+.steps li a {
+  margin: 1rem auto;
+}
+
+.more-info ul {
+  list-style: none;
+  font-size: 1.8rem;
+  padding: 0;
+}
+
+.more-info li {
+  margin: 3rem 0;
+}
+
+.more-info li ul li {
+  margin: 3rem;
+}

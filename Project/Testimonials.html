@@ -73,10 +73,9 @@
     />
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/tutoring.css" />
+    <link type="text/css" rel="stylesheet" href="css/testimonials.css" />
     <link type="text/css" rel="stylesheet" href="css/navbar.css" />
     <script src="js/navbar.js"></script>
-    <script src="js/tutoring.js"></script>
     <script async src="js/onload.js"></script>
     <script async src="components/header.js"></script>
     <script async src="components/footer.js"></script>
@@ -94,7 +93,7 @@
         <!-- Page breadcrumb -->
         <ol id="breadcrumbs" class="breadcrumb"></ol>
 
-        <h1 class="page-header">Creativity Lab</h1>
+        <h1 class="page-header">Testimonials</h1>
 
         <div style="display: flex;">
           <!-- Side Navigation -->
@@ -104,68 +103,16 @@
                 id="block-menu-block-1"
                 class="block block-menu-block clearfix"
               >
-                <h2 class="block-title">
-                  <a href="Overview.html" title="" class="active-trail">
-                    Freshman Learning Community
-                  </a>
-                </h2>
-
-                <nav class="side-nav">
-                  <ul>
-                    <a href="Overview.html">
-                      <li style="margin-top: 2px;">Overview</li>
-                    </a>
-                    <li onclick="handleNavMenuClick('current')">
-                      Current Students
-                      <img
-                        class="menu-arrow current"
-                        src="icons/down-arrow.svg"
-                        alt="menu arrow"
-                        style="transform: rotate(-180deg);"
-                      />
-                    </li>
-                    <ul class="nav-sub-menu current-menu open">
-                      <a href="./CreativityLab.html">
-                        <li>Creativity Lab</li>
-                      </a>
-                      <a href="./AnnouncementsEvents.html">
-                        <li>Announcements/Events</li>
-                      </a>
-                      <li class="active">Tutoring</li>
-                    </ul>
-                    <li onclick="handleNavMenuClick('prospective')">
-                      Prospective Students
-                      <img
-                        class="menu-arrow prospective"
-                        src="icons/down-arrow.svg"
-                        alt="menu arrow"
-                      />
-                    </li>
-                    <ul class="nav-sub-menu prospective-menu">
-                      <a>
-                        <li>How to Apply</li>
-                      </a>
-                      <a>
-                        <li>Testimonials</li>
-                      </a>
-                      <a>
-                        <li>FAQ</li>
-                      </a>
-                    </ul>
-                    <a>
-                      <li>Parents</li>
-                    </a>
-                  </ul>
-                </nav>
+                <nav id="side-navbar" class="side-nav"></nav>
               </section>
             </div>
           </aside>
 
           <!-- Content goes here -->
           <main>
-            <!-- About Tutoring Section -->
-            <section class="about-tutoring">
-              <h2 class="section-header">In House Tutoring</h2>
+            <!-- About Testimonials Section -->
+            <section class="about-testimonials">
+              <h2 class="section-header">Stories from Students for Students</h2>
               <p>
                 Lorem ipsum dolor sit amet, sensibus prodesset nec eu. Id dicta
                 consul quaerendum pro. Detraxit mediocritatem te nam, mel
@@ -173,321 +120,131 @@
                 assum viderer tractatos ne, quaeque sadipscing cu pro. Pri veri
                 lorem dissentiet ne, ceteros blandit epicurei sed ei.
               </p>
-              <strong>Tutoring is offered for the following classes:</strong>
-              <ul>
-                <li><a href="#ECGR-2104">ECGR 2104</a></li>
-                <li><a href="#MATH-1241">MATH 1241</a></li>
-                <li><a href="#TechWriting">Technical Writing</a></li>
-                <li><a href="#PHYS-2101">PHYS 2101</a></li>
-                <li><a href="#CHEM-1251">CHEM 1251</a></li>
-              </ul>
             </section>
 
-            <!-- Student Prints Section -->
             <section>
-              <h2 class="section-header">The Tutors</h2>
+              <h2 class="section-header">The Testimonials</h2>
 
-              <!-- Beginning of tutor card -->
-              <div class="tutor-card" id="ECGR-2104">
+              <!-- Beginning of testimonial card -->
+              <div class="testimonial-card" id="ECGR-2104">
                 <div
                   style="background-color: #e7e7e7; width: 30rem; height: 32rem;"
                 ></div>
                 <div
                   style="display: block; flex: 2; margin-left: 1rem; margin-top: 2rem;"
                 >
-                  <h3>Name of Tutor</h3>
-                  <h4>ECGR 2104</h4>
+                  <h3>Name of Student</h3>
+                  <h4>Year of residency, Major</h4>
                   <br />
-                  <strong>About the tutor:</strong>
+                  <strong>What they had to say:</strong>
                   <p>
                     Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae
                     mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum
                     viderer voluptua, in noster meliore vel, ad ius modus
                     probatus mandamus. Mel solet utamur referrentur no. Esse
                     iusto liberavisse nec te, et feugiat elaboraret sed. Eu
-                    mollis facilisi sed.
+                    mollis facilisi.
                   </p>
                 </div>
-                <div class="tutor-hours" onclick="handleHoursClick(this)">
-                  <img src="icons/down-arrow.svg" alt="show-menu" />
-                  <div class="hours-content">
-                    <h2 class="block-title">Hours and Location</h2>
-                    <div class="operation-hours">
-                      <ul id="days">
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                        <li>Sunday</li>
-                      </ul>
-                      <ul id="times">
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>Closed</li>
-                        <li>Closed</li>
-                      </ul>
-                      <ul id="location">
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>None</li>
-                        <li>None</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <!-- End of tutor card -->
+              <!-- End of testimonial card -->
 
-              <!-- Beginning of tutor card -->
-              <div class="tutor-card" id="MATH-1241">
+              <!-- Beginning of testimonial card -->
+              <div class="testimonial-card" id="MATH-1241">
                 <div
                   style="background-color: #e7e7e7; width: 30rem; height: 32rem;"
                 ></div>
                 <div
                   style="display: block; flex: 2; margin-left: 1rem; margin-top: 2rem;"
                 >
-                  <h3>Name of Tutor</h3>
-                  <h4>MATH 1241</h4>
+                  <h3>Name of Student</h3>
+                  <h4>Year of residency, Major</h4>
                   <br />
-                  <strong>About the tutor:</strong>
+                  <strong>What they had to say:</strong>
                   <p>
                     Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae
                     mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum
                     viderer voluptua, in noster meliore vel, ad ius modus
                     probatus mandamus. Mel solet utamur referrentur no. Esse
                     iusto liberavisse nec te, et feugiat elaboraret sed. Eu
-                    mollis facilisi sed.
+                    mollis facilisi.
                   </p>
                 </div>
-                <div class="tutor-hours" onclick="handleHoursClick(this)">
-                  <img src="icons/down-arrow.svg" alt="show-menu" />
-                  <div class="hours-content">
-                    <h2 class="block-title">Hours and Location</h2>
-                    <div class="operation-hours">
-                      <ul id="days">
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                        <li>Sunday</li>
-                      </ul>
-                      <ul id="times">
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>Closed</li>
-                        <li>Closed</li>
-                      </ul>
-                      <ul id="location">
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>None</li>
-                        <li>None</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <!-- End of tutor card -->
+              <!-- End of testimonial card -->
 
-              <!-- Beginning of tutor card -->
-              <div class="tutor-card" id="TechWriting">
+              <!-- Beginning of testimonial card -->
+              <div class="testimonial-card" id="TechWriting">
                 <div
                   style="background-color: #e7e7e7; width: 30rem; height: 32rem;"
                 ></div>
                 <div
                   style="display: block; flex: 2; margin-left: 1rem; margin-top: 2rem;"
                 >
-                  <h3>Name of Tutor</h3>
-                  <h4>Technical Writing</h4>
+                  <h3>Name of Student</h3>
+                  <h4>Year of residency, Major</h4>
                   <br />
-                  <strong>About the tutor:</strong>
+                  <strong>What they had to say:</strong>
                   <p>
                     Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae
                     mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum
                     viderer voluptua, in noster meliore vel, ad ius modus
                     probatus mandamus. Mel solet utamur referrentur no. Esse
                     iusto liberavisse nec te, et feugiat elaboraret sed. Eu
-                    mollis facilisi sed.
+                    mollis facilisi.
                   </p>
                 </div>
-                <div class="tutor-hours" onclick="handleHoursClick(this)">
-                  <img src="icons/down-arrow.svg" alt="show-menu" />
-                  <div class="hours-content">
-                    <h2 class="block-title">Hours and Location</h2>
-                    <div class="operation-hours">
-                      <ul id="days">
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                        <li>Sunday</li>
-                      </ul>
-                      <ul id="times">
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>Closed</li>
-                        <li>Closed</li>
-                      </ul>
-                      <ul id="location">
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>None</li>
-                        <li>None</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <!-- End of tutor card -->
+              <!-- End of testimonial card -->
 
-              <!-- Beginning of tutor card -->
-              <div class="tutor-card" id="PHYS-2101">
+              <!-- Beginning of testimonial card -->
+              <div class="testimonial-card" id="PHYS-2101">
                 <div
                   style="background-color: #e7e7e7; width: 30rem; height: 32rem;"
                 ></div>
                 <div
                   style="display: block; flex: 2; margin-left: 1rem; margin-top: 2rem;"
                 >
-                  <h3>Name of Tutor</h3>
-                  <h4>PHYS 2101</h4>
+                  <h3>Name of Student</h3>
+                  <h4>Year of residency, Major</h4>
                   <br />
-                  <strong>About the tutor:</strong>
+                  <strong>What they had to say:</strong>
                   <p>
                     Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae
                     mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum
                     viderer voluptua, in noster meliore vel, ad ius modus
                     probatus mandamus. Mel solet utamur referrentur no. Esse
                     iusto liberavisse nec te, et feugiat elaboraret sed. Eu
-                    mollis facilisi sed.
+                    mollis facilisi.
                   </p>
                 </div>
-                <div class="tutor-hours" onclick="handleHoursClick(this)">
-                  <img src="icons/down-arrow.svg" alt="show-menu" />
-                  <div class="hours-content">
-                    <h2 class="block-title">Hours and Location</h2>
-                    <div class="operation-hours">
-                      <ul id="days">
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                        <li>Sunday</li>
-                      </ul>
-                      <ul id="times">
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>Closed</li>
-                        <li>Closed</li>
-                      </ul>
-                      <ul id="location">
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>None</li>
-                        <li>None</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <!-- End of tutor card -->
+              <!-- End of testimonial card -->
 
-              <!-- Beginning of tutor card -->
-              <div class="tutor-card" id="CHEM-1251">
+              <!-- Beginning of testimonial card -->
+              <div class="testimonial-card" id="CHEM-1251">
                 <div
                   style="background-color: #e7e7e7; width: 30rem; height: 32rem;"
                 ></div>
                 <div
                   style="display: block; flex: 2; margin-left: 1rem; margin-top: 2rem;"
                 >
-                  <h3>Name of Tutor</h3>
-                  <h4>CHEM 1251</h4>
+                  <h3>Name of Student</h3>
+                  <h4>Year of residency, Major</h4>
                   <br />
-                  <strong>About the tutor:</strong>
+                  <strong>What they had to say:</strong>
                   <p>
                     Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae
                     mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum
                     viderer voluptua, in noster meliore vel, ad ius modus
                     probatus mandamus. Mel solet utamur referrentur no. Esse
                     iusto liberavisse nec te, et feugiat elaboraret sed. Eu
-                    mollis facilisi sed.
+                    mollis facilisi.
                   </p>
                 </div>
-                <div class="tutor-hours" onclick="handleHoursClick(this)">
-                  <img src="icons/down-arrow.svg" alt="show-menu" />
-                  <div class="hours-content">
-                    <h2 class="block-title">Hours and Location</h2>
-                    <div class="operation-hours">
-                      <ul id="days">
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                        <li>Sunday</li>
-                      </ul>
-                      <ul id="times">
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>8:00am-2:00pm</li>
-                        <li>Closed</li>
-                        <li>Closed</li>
-                      </ul>
-                      <ul id="location">
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>Hawthorn</li>
-                        <li>Smith</li>
-                        <li>None</li>
-                        <li>None</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <!-- End of tutor card -->
+              <!-- End of testimonial card -->
             </section>
-
-            <!-- Queen of Robots Section -->
-            <section></section>
-
-            <!-- Design Challenges Section -->
-            <section></section>
           </main>
         </div>
 

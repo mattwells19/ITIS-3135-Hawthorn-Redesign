@@ -22,6 +22,7 @@ section.in-charge > div > img {
   height: 30rem;
   float: left;
   margin-right: 1rem;
+  border-radius: 1rem;
 }
 
 section.in-charge > div > p > img,

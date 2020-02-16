@@ -47,7 +47,7 @@ var getCurrentPageandSection = () => {
   } else if (pageText === "Testimonials") {
     activePage = "Testimonials";
     activeSection = "prospective";
-  } else if (pageText === "FAQ") {
+  } else if (pageText === "Frequently Asked Questions") {
     activePage = "FAQ";
     activeSection = "prospective";
   } else if (pageText === "Parents") {
@@ -60,6 +60,11 @@ var addNav = () => {
   var nav = document.getElementById("side-navbar");
 
   nav.innerHTML = `
+    <h2 class="block-title">
+      <a href="Overview.html" title="" class="active-trail">
+        Freshman Learning Community
+      </a>
+    </h2>
     <ul>
       <a href="Overview.html"><li style="margin-top: 2px;">Overview</li></a>
       <li onclick="handleNavMenuClick('current')">
@@ -94,7 +99,7 @@ var addNav = () => {
         <a href="Testimonials.html"><li>Testimonials</li></a>
         <a href="FAQ.html"><li>FAQ</li></a>
       </ul>
-      <a><li>Parents</li></a>
+      <a href="Parents.html"><li>Parents</li></a>
     </ul>
 `;
 
