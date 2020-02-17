@@ -45,8 +45,12 @@ main section {
   justify-content: space-between;
 }
 
-.queen-content p {
+.queen-text {
   width: 55%;
+}
+
+.queen-text h3 {
+  text-align: center;
 }
 
 .designChallenge-content {
