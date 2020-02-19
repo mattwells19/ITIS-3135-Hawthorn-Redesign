@@ -17,7 +17,8 @@ section.about-tutoring ul li {
 
 .tutor-card {
   border: 2px solid black;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  width: 80%;
   padding: 1rem;
   display: flex;
   position: relative;
@@ -27,16 +28,27 @@ section.about-tutoring ul li {
   width: 90%;
 }
 
+.tutor-card > img {
+  border: 2px solid black;
+}
+
+.tutor-card-text-container {
+  display: block;
+  flex: 2;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
 .tutor-hours {
   position: absolute;
   background-color: #e7e7e7;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 10px black;
   height: 95%;
-  width: 3rem;
+  max-width: 3rem;
   right: 0;
   top: 1rem;
-  transition: width ease-in-out 500ms;
+  transition: max-width ease-in-out 500ms;
   overflow: hidden;
   display: flex;
   white-space: nowrap;
@@ -57,7 +69,7 @@ section.about-tutoring ul li {
 }
 
 .tutor-hours.open {
-  width: 42rem;
+  max-width: 70rem;
 }
 
 .tutor-hours h2 {
