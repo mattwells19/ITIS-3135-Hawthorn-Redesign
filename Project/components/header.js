@@ -249,9 +249,7 @@ document.getElementById("header").innerHTML = `
 `;
 
 var handleCampusResourcesClick = () => {
-  var section = document.getElementById("headerCampusResourcesSection");
-  if (section.style.display === "block") section.style.display = "none";
-  else section.style.display = "block";
+  $(`#headerCampusResourcesSection`).toggle("blind", 500);
 };
 
 document.getElementById(
