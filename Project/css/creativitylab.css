@@ -47,6 +47,8 @@ main section {
 
 .queen-text {
   width: 55%;
+  margin-top: 5rem;
+  margin-right: 5px;
 }
 
 .queen-text h3 {
@@ -67,4 +69,76 @@ main section {
 .previous-winner h4 {
   margin: 1rem;
   margin-top: 6rem;
+}
+
+#img-collection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#img-collection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#main-content img {
+  transition: all ease-in-out 300ms;
+  border-radius: 1rem;
+  border: 4px solid #004525;
+}
+
+#img-collection img:last-child {
+  margin: 2rem;
+}
+
+#img-collection img:last-child:hover {
+  transform: scale(1.5) translateY(-5rem);
+}
+
+#img-collection img:hover {
+  transform: scale(1.5);
+}
+
+#about-section > img {
+  margin: 2rem auto;
+  display: block;
+}
+
+#prints-section {
+  position: relative;
+}
+
+#slideshow-content {
+  margin: auto;
+  width: fit-content;
+  overflow: hidden;
+  position: relative;
+}
+
+#slideshow-content button {
+  background-color: #004525;
+  border: none;
+  padding: 5px;
+  height: fit-content;
+  width: fit-content;
+  margin: 1rem;
+  border-radius: 1rem;
+  transition: transform 250ms;
+}
+
+#slideshow-content button:focus,
+#slideshow-content button:hover {
+  transform: scale(1.1);
+}
+
+#slideshow-content button img {
+  border: none;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(52deg)
+    brightness(107%) contrast(101%);
+}
+
+#slideshow-img {
+  position: relative;
 }

@@ -73,12 +73,14 @@
     />
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link type="text/css" rel="stylesheet" href="css/creativitylab.css" />
     <link type="text/css" rel="stylesheet" href="css/navbar.css" />
     <script async src="js/onload.js"></script>
     <script async src="components/navbar.js"></script>
     <script async src="components/header.js"></script>
     <script async src="components/footer.js"></script>
+    <script async src="js/creativitylab.js"></script>
   </head>
 
   <body
@@ -117,11 +119,11 @@
                     <li>Sunday</li>
                   </ul>
                   <ul id="times">
-                    <li>8:00am-2:00pm</li>
-                    <li>8:00am-2:00pm</li>
-                    <li>8:00am-2:00pm</li>
-                    <li>8:00am-2:00pm</li>
-                    <li>8:00am-2:00pm</li>
+                    <li>11:30am-3:00pm</li>
+                    <li>11:45am-2:00pm</li>
+                    <li>11:30am-3:00pm</li>
+                    <li>11:45am-2:00pm</li>
+                    <li>11:30am-1:30pm</li>
                     <li>Closed</li>
                     <li>Closed</li>
                   </ul>
@@ -139,10 +141,15 @@
           </aside>
 
           <!-- Content goes here -->
-          <main>
+          <main id="main-content">
             <!-- About the Lab Section -->
-            <section>
+            <section id="about-section">
               <h2 class="section-header">The Hawthorn Makerspace</h2>
+              <img
+                alt="lab logo"
+                src="images/CreativityLab/LabLogo.jpg"
+                height="350px"
+              />
               <p>
                 The Engineering FLC has a Creativity Lab in the basement
                 classroom of Hawthorn Hall. The Creativity Lab has two 3D
@@ -153,8 +160,8 @@
               <strong>Equipment:</strong>
               <ul>
                 <li>Two Makerbot 3D Printers</li>
-                <li>Laser Cutter</li>
-                <li>Arduinos for Checkout</li>
+                <li>Emblaser 2 Laser Cutter</li>
+                <li>Arduinos and more for Checkout</li>
               </ul>
               <p>
                 The Engineering FLC is open to all traditional freshmen who have
@@ -165,12 +172,49 @@
                 and living room. The basement has a laundry room, game room/TV
                 area, and a full-size classroom.
               </p>
+
+              <div id="img-collection">
+                <img
+                  alt="piff and rex"
+                  src="images/CreativityLab/PiffRex_Sam.jpg"
+                  width="400px"
+                />
+                <img
+                  alt="laser cutter"
+                  src="images/CreativityLab/LaserCutter.jpg"
+                  width="400px"
+                />
+                <img
+                  alt="equipment"
+                  src="images/CreativityLab/Equipment.jpg"
+                  width="400px"
+                />
+              </div>
             </section>
 
             <!-- Student Prints Section -->
-            <section>
+            <section id="prints-section">
               <h3>Student Prints</h3>
-              <div class="slideshow-container"></div>
+              <div id="slideshow-content">
+                <button id="slideshow-left">
+                  <img
+                    src="icons/down-arrow.svg"
+                    style="transform: rotate(90deg);"
+                  />
+                </button>
+                <img
+                  id="slideshow-img"
+                  alt="slideshow-img-1"
+                  src="images/CreativityLab/Prints/print1.jpg"
+                  width="600px"
+                />
+                <button id="slideshow-right">
+                  <img
+                    src="icons/down-arrow.svg"
+                    style="transform: rotate(-90deg);"
+                  />
+                </button>
+              </div>
             </section>
 
             <!-- Queen of Robots Section -->
@@ -180,18 +224,24 @@
                 <div class="queen-text">
                   <h3>Sam Luu</h3>
                   <p>
-                    No ipsum dicunt percipitur eum, ex has homero insolens
-                    reprimique, mea iusto dicant voluptua eu. Nisl mollis
-                    facilisis eum cu, aliquip maluisset id has. Pri iracundia
-                    complectitur comprehensam ad, postea suavitate ex sea. Eam
-                    ea minim vivendo, eos sale possit regione et, quo reque
-                    diceret et. Ei usu eligendi gubergren. Vidit voluptaria
-                    quaerendum mei te.
+                    Sam Luu is in her third year of studying computer
+                    engineering and also a current electrical engineering dual
+                    masters' student. She has been part of the FLC for three
+                    years, living in Hawthorn in 2017 and working as the
+                    Creativity Lab technician since 2018. She is very passionate
+                    about her job as the technician with her love of 3D
+                    printing, robotics, and learning about new technologies. She
+                    is constantly learning with every new technological addition
+                    to the lab. She particularly enjoys hosting workshops to
+                    assist current FLC students with 3D modeling and using
+                    Arduinos.
                   </p>
                 </div>
-                <div
-                  style="background-color: #e7e7e7; width: 35rem; height: 35rem;"
-                ></div>
+                <img
+                  alt="Queen Sam"
+                  height="500px"
+                  src="images/CreativityLab/LabLogo_Sam.jpg"
+                />
               </div>
             </section>
 
