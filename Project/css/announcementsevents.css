@@ -4,7 +4,7 @@
 }
 
 .event-content {
-  margin: 5rem 1rem;
+  margin: 5rem 2rem;
   display: block;
   width: 40%;
   text-align: right;
@@ -18,6 +18,13 @@
 .event-content strong {
   text-align: left;
   display: block;
+}
+
+.event-container img {
+  width: 400px;
+  height: 500px;
+  border: 2px solid #004525;
+  padding: 5px;
 }
 
 main section {

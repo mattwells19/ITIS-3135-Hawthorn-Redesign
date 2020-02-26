@@ -103,6 +103,7 @@ main section {
 
 #about-section > img {
   margin: 2rem auto;
+  border: none;
   display: block;
 }
 
