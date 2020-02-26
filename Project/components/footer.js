@@ -1,5 +1,5 @@
 document.getElementById("footer").innerHTML = `
-<footer class="footer" id="accordian">
+<footer class="footer" id="accordian" style="margin-top: 20vh">
 <div class="panel panel-default">
     <!-- color bar for footer heading -->
     <div class="heading-wrapper">
