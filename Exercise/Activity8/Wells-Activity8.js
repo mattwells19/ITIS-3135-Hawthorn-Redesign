@@ -1,7 +1,7 @@
 var names = ["Tom", "Lily", "Jose", "Sarah"];
 var height = [65, 60, 72, 68];
 
-var $ = function(id) {
+var $ = function (id) {
   return document.getElementById(id);
 };
 
@@ -68,8 +68,8 @@ const addHeight = e => {
   }
 };
 
-window.onload = function() {
-  this.$("name").focus();
+window.onload = function () {
+  $("name").focus();
   $("show_results").onclick = showResult;
   $("add").onclick = addHeight;
   $("display_height").onclick = displayHeight;
