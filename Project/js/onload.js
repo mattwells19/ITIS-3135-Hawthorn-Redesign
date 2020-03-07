@@ -42,7 +42,7 @@ var addBreadcrumbs = () => {
   var lcCrumb = `<li><a class="active-trail href="Overview.html">Freshman Learning Community</a></li>`;
   var sectionCrumb = activeSection
     ? `<li class="active">${activeSection[0].toUpperCase() +
-        activeSection.slice(1)} Students</li>`
+    activeSection.slice(1)} Students</li>`
     : "";
   var pageCrumb = `<li class="active">${activePage}</li>`;
   bread.innerHTML = `${homeCrumb + lcCrumb + sectionCrumb + pageCrumb}`;
@@ -60,7 +60,7 @@ var addActiveTab = () => {
     if (element.firstChild.nodeValue === activePage) {
       element.className += "active";
       if (activeSection) {
-        var menu = element.parentNode.parentNode;
+        var menu = element.parentNode.parentElement;
         menu.className += " open";
         arrow.style.transform = "rotate(-180deg)";
       }

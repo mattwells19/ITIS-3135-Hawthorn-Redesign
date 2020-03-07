@@ -30,3 +30,14 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+#student-images > img {
+  border-radius: 1rem;
+  border: 4px solid #004525;
+}
+
+#student-images {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}

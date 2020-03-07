@@ -35,3 +35,31 @@ main section {
   border-bottom: 3px solid #004525;
   line-height: 7rem;
 }
+
+#important-dates {
+  display: flex;
+}
+
+#dates, #descriptions {
+  list-style: none;
+}
+
+#descriptions {
+  padding-left: 0;
+}
+
+#descriptions li {
+  list-style: none;
+  padding-left: 0;
+  text-indent: 5rem;
+  padding-right: 1rem;
+}
+
+#dates li {
+  text-indent: 1rem;
+}
+
+#important-dates li {
+  margin: 2rem 0;
+  border-bottom: 1px solid black;
+}

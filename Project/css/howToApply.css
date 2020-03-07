@@ -3,10 +3,18 @@
   margin-bottom: 5rem;
 }
 
-.explore-area ul {
+.explore-area > ul {
   margin-left: 3rem;
   list-style: none;
   font-weight: bold;
+}
+
+.explore-area li > ul {
+  list-style: square;
+}
+
+.explore-area li {
+  margin: 0.5rem;
 }
 
 .section-header {

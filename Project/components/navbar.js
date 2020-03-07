@@ -18,7 +18,7 @@ nav.innerHTML = `
     </h2>
     <ul>
       <a href="Overview.html"><li style="margin-top: 2px;">Overview</li></a>
-      <li onclick="handleNavMenuClick('current')">
+      <li id="current-nav-menu">
         Current Students
         <img
           class="menu-arrow current"
@@ -37,7 +37,7 @@ nav.innerHTML = `
           ><li>Tutoring</li></a
         >
       </ul>
-      <li onclick="handleNavMenuClick('prospective')">
+      <li id="prospective-nav-menu">
         Prospective Students
         <img
           class="menu-arrow prospective"
@@ -53,3 +53,6 @@ nav.innerHTML = `
       <a href="Parents.html"><li>Parents</li></a>
     </ul>
 `;
+
+$("#prospective-nav-menu").click(() => handleNavMenuClick("prospective"));
+$("#current-nav-menu").click(() => handleNavMenuClick("current"));

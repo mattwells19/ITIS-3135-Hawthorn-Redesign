@@ -32,3 +32,10 @@ section.about-testimonial ul li {
 .testimonial-card p::after {
   content: '"';
 }
+
+.testimonial-card-content {
+  display: block;
+  flex: 2;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}

@@ -107,6 +107,14 @@ main section {
   display: block;
 }
 
+#about-section li {
+  margin: 0.5rem 0;
+}
+
+#about-section ul {
+  list-style: square;
+}
+
 #prints-section {
   position: relative;
 }
@@ -142,4 +150,11 @@ main section {
 
 #slideshow-img {
   position: relative;
+}
+
+#disclaimer {
+  background-color: #e7e7e7;
+  margin-top: 2px;
+  padding: 1rem;
+  text-align: justify;
 }

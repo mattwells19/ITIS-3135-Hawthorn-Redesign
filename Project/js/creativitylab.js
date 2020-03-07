@@ -1,7 +1,8 @@
 var images = [
-  "images/CreativityLab/Prints/print1.jpg",
-  "images/CreativityLab/Prints/print2.jpg",
-  "images/CreativityLab/Prints/print3.jpg"
+  "images/CreativityLab/Prints/3DPrint1.jpg",
+  "images/CreativityLab/Prints/3DPrint2.jpg",
+  "images/CreativityLab/Prints/Laser1.jpg",
+  "images/CreativityLab/Prints/Laser2.jpg"
 ];
 
 var handleLeftClick = () => {

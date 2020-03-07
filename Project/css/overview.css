@@ -9,6 +9,10 @@
   margin: 2rem auto;
 }
 
+#goalsLC {
+  margin: 3rem 0;
+}
+
 p {
   line-height: 2;
 }
@@ -18,23 +22,43 @@ section.in-charge {
   flex-direction: column;
 }
 
-section.in-charge > div {
+.in-charge-card {
   margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  flex-direction: column;
+  width: 45%;
+  border: 4px solid #004525;
 }
 
-section.in-charge > div > img {
-  width: 22rem;
-  height: 30rem;
-  float: left;
-  margin-right: 1rem;
+.in-charge-card > img {
+  width: 20rem;
+  height: auto;
+  display: block;
+  margin: auto;
   border-radius: 1rem;
+  box-shadow: 0 0 10px black;
 }
 
-section.in-charge > div > p > img,
-section.in-charge > div > a > img {
+.in-charge-card > p > img,
+.in-charge-card > a > img {
   margin-right: 1rem;
 }
 
-section.in-charge > div > p {
-  margin: 0;
+.in-charge-card > p {
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+#in-charge-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
