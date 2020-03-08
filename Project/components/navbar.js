@@ -1,3 +1,5 @@
+// I know I can just use toggle, but leaving it branched out like this
+// because of the style that needs to be applied to the arrows.
 function handleNavMenuClick(menu) {
   if ($(`.${menu}-menu.open`).length > 0) {
     $(`.${menu}-menu`).removeClass("open");

@@ -1,3 +1,5 @@
+// Dynamically add breadcrumbs and activeTab so that we don't have to in HTML
+
 window.onload = () => {
   addBreadcrumbs();
   addActiveTab();

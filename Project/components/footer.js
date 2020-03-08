@@ -90,9 +90,11 @@ document.getElementById("footer").innerHTML = `
 `;
 
 var handleFooterClick = () => {
-  $("#collapseOne").toggle("blind", 500);
+        $("#collapseOne").toggle("blind", 500);
 };
 
 document.getElementById("footerExtra").onclick = handleFooterClick;
 
+// Start the footer open and close after load.
+// This allows the href="#collapseOne" to scroll the page correctly.
 handleFooterClick();
