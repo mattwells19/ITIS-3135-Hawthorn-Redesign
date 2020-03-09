@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
 
     // preload the image for each link
     // set up the event handlers for each link
@@ -14,6 +14,6 @@ $(document).ready(function () {
         $("#caption").text(evt.target.title);
     };
 
-    $("a:first").focus()
+    $("a:eq(1)").focus()
 
 }); // end ready
