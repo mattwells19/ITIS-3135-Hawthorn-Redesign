@@ -1,16 +1,19 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-        // get the image URL and caption for each image
+    // preload the image for each link
+    // set up the event handlers for each link
+    $("a").each((i, val) => {
+        $('<img/>')[0].src = val.href
+        $(val).click(handleLinkClick);
+    });
 
+    // Click event callback
+    function handleLinkClick(evt) {
+        evt.preventDefault();
+        $("#image").attr("src", evt.target.href);
+        $("#caption").text(evt.target.title);
+    };
 
-        // preload the image for each link
-
-        // set up the event handlers for each link
-
-
-            // cancel the default action of each link
-
-
-    // move the focus to the first link
+    $("a:first").focus()
 
 }); // end ready
