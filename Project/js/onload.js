@@ -53,19 +53,13 @@ var addBreadcrumbs = () => {
 var addActiveTab = () => {
   var { activePage, activeSection } = getCurrentPageandSection();
 
-  var nav = document.getElementById("side-navbar");
-
-  var tabs = Array.from(nav.getElementsByTagName("li"));
-  var arrow = nav.getElementsByClassName(`menu-arrow ${activeSection}`)[0];
-
-  tabs.forEach(element => {
-    if (element.firstChild.nodeValue === activePage) {
-      element.className += "active";
-      if (activeSection) {
-        var menu = element.parentNode.parentElement;
-        menu.className += " open";
-        arrow.style.transform = "rotate(-180deg)";
-      }
+  $("#side-navbar li").each((i, item) => {
+    if ($(item).first().text() === activePage) {
+      $(item).addClass("active");
+      var activeUl = $(item).closest("ul");
+      activeUl.addClass("open");
+      activeUl.prev().css("border-left", "solid 5px #004525");
+      $(`.menu-arrow.${activeSection}`).css("transform", "rotate(-180deg)");
     }
-  });
+  })
 };
