@@ -1,3 +1,5 @@
-$(".tutor-hours").click(event => {
-  $(event.currentTarget).toggleClass("open");
+$(function() {
+  $(".tutor-hours").click(event => {
+    $(event.currentTarget).toggleClass("open");
+  });
 });

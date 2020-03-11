@@ -1,18 +1,19 @@
-// I know I can just use toggle, but leaving it branched out like this
-// because of the style that needs to be applied to the arrows.
-function handleNavMenuClick(menu) {
-  if ($(`.${menu}-menu.open`).length > 0) {
-    $(`.${menu}-menu`).removeClass("open");
-    $(`.menu-arrow.${menu}`).css("transform", "rotate(0deg)");
-  } else {
-    $(`.${menu}-menu`).addClass("open");
-    $(`.menu-arrow.${menu}`).css("transform", "rotate(-180deg)");
+$(function () {
+  // I know I can just use toggle, but leaving it branched out like this
+  // because of the style that needs to be applied to the arrows.
+  function handleNavMenuClick(menu) {
+    if ($(`.${menu}-menu.open`).length > 0) {
+      $(`.${menu}-menu`).removeClass("open");
+      $(`.menu-arrow.${menu}`).css("transform", "rotate(0deg)");
+    } else {
+      $(`.${menu}-menu`).addClass("open");
+      $(`.menu-arrow.${menu}`).css("transform", "rotate(-180deg)");
+    }
   }
-}
 
-var nav = document.getElementById("side-navbar");
+  var nav = document.getElementById("side-navbar");
 
-nav.innerHTML = `
+  nav.innerHTML = `
     <h2 class="block-title">
       <a href="Overview.html" title="" class="active-trail">
         Freshman Learning Community
@@ -56,5 +57,8 @@ nav.innerHTML = `
     </ul>
 `;
 
-$("#prospective-nav-menu").click(() => handleNavMenuClick("prospective"));
-$("#current-nav-menu").click(() => handleNavMenuClick("current"));
+  $("#prospective-nav-menu").click(() => handleNavMenuClick("prospective"));
+  $("#current-nav-menu").click(() => handleNavMenuClick("current"));
+
+
+})

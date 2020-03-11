@@ -1,6 +1,8 @@
 var images = [
   "images/CreativityLab/Prints/3DPrint1.jpg",
   "images/CreativityLab/Prints/3DPrint2.jpg",
+  "images/CreativityLab/Prints/3DPrint_IronMan.jpg",
+  "images/CreativityLab/Prints/3DPrint_Shark.jpg",
   "images/CreativityLab/Prints/Laser1.jpg",
   "images/CreativityLab/Prints/Laser2.jpg"
 ];
@@ -25,17 +27,18 @@ var handleRightClick = () => {
   $("#slideshow-img").replaceWith(imageElements[img_index]);
 };
 
-$(function () {
-  images.forEach((img) => {
-    imageElements.push($("<img>").attr({
-      src: img,
-      id: "slideshow-img",
-      alt: "Slideshow Image",
-      width: "600px"
-    })
+$(function() {
+  images.forEach(img => {
+    imageElements.push(
+      $("<img>").attr({
+        src: img,
+        id: "slideshow-img",
+        alt: "Slideshow Image",
+        width: "600px"
+      })
     );
   });
 
   $("#slideshow-left").click(handleLeftClick);
   $("#slideshow-right").click(handleRightClick);
-})
+});

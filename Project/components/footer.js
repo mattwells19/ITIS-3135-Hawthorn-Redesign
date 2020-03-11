@@ -1,4 +1,5 @@
-document.getElementById("footer").innerHTML = `
+$(function() {
+  document.getElementById("footer").innerHTML = `
 <footer class="footer" id="accordian" style="margin-top: 20vh">
 <div class="panel panel-default">
     <!-- color bar for footer heading -->
@@ -89,12 +90,13 @@ document.getElementById("footer").innerHTML = `
 </footer>
 `;
 
-var handleFooterClick = () => {
-        $("#collapseOne").toggle("blind", 500);
-};
+  var handleFooterClick = () => {
+    $("#collapseOne").toggle("blind", 500);
+  };
 
-document.getElementById("footerExtra").onclick = handleFooterClick;
+  document.getElementById("footerExtra").onclick = handleFooterClick;
 
-// Start the footer open and close after load.
-// This allows the href="#collapseOne" to scroll the page correctly.
-handleFooterClick();
+  // Start the footer open and close after load.
+  // This allows the href="#collapseOne" to scroll the page correctly.
+  handleFooterClick();
+});

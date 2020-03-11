@@ -1,4 +1,7 @@
-document.getElementById("header").innerHTML = `
+$(function () {
+
+
+    document.getElementById("header").innerHTML = `
 <div id="skip-link">
 <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
 </div>
@@ -248,10 +251,13 @@ document.getElementById("header").innerHTML = `
 </header>
 `;
 
-var handleCampusResourcesClick = () => {
-  $(`#headerCampusResourcesSection`).toggle("blind", 500);
-};
+    var handleCampusResourcesClick = () => {
+        $(`#headerCampusResourcesSection`).toggle("blind", 500);
+    };
 
-document.getElementById(
-  "headerCampusResourcesBtn"
-).onclick = handleCampusResourcesClick;
+    document.getElementById(
+        "headerCampusResourcesBtn"
+    ).onclick = handleCampusResourcesClick;
+
+
+});

@@ -1,9 +1,9 @@
 // Dynamically add breadcrumbs and activeTab so that we don't have to in HTML
 
-window.onload = () => {
+$(function() {
   addBreadcrumbs();
   addActiveTab();
-};
+});
 
 var getCurrentPageandSection = () => {
   var pageText = document.getElementsByClassName("page-header")[0].firstChild
@@ -44,7 +44,7 @@ var addBreadcrumbs = () => {
   var lcCrumb = `<li><a class="active-trail" href="Overview.html">Freshman Learning Community</a></li>`;
   var sectionCrumb = activeSection
     ? `<li class="active">${activeSection[0].toUpperCase() +
-    activeSection.slice(1)} Students</li>`
+        activeSection.slice(1)} Students</li>`
     : "";
   var pageCrumb = `<li class="active">${activePage}</li>`;
   bread.innerHTML = `${homeCrumb + lcCrumb + sectionCrumb + pageCrumb}`;
@@ -54,12 +54,16 @@ var addActiveTab = () => {
   var { activePage, activeSection } = getCurrentPageandSection();
 
   $("#side-navbar li").each((i, item) => {
-    if ($(item).first().text() === activePage) {
+    if (
+      $(item)
+        .first()
+        .text() === activePage
+    ) {
       $(item).addClass("active");
       var activeUl = $(item).closest("ul");
       activeUl.addClass("open");
       activeUl.prev().css("border-left", "solid 5px #004525");
       $(`.menu-arrow.${activeSection}`).css("transform", "rotate(-180deg)");
     }
-  })
+  });
 };
