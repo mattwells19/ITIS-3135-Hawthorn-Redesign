@@ -15,3 +15,4 @@ jobs:
         ftp-server: sftp://webpages.uncc.edu:22/
         ftp-username: mwells21
         ftp-password: ${{ secrets.SFTP_PASSWORD }}
+        git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
