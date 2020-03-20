@@ -13,4 +13,4 @@ jobs:
       with:
         ftp-server: sftp://webpages.uncc.edu
         ftp-username: mwells21
-        ftp-password: ${{ secrets.ftp_password }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
