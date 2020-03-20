@@ -1,15 +1,35 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
+	// Preload images and captions
+	var images = [];
+	var captions = [];
+	$("li > a").each((i, val) => {
+		images.push($('<img>').attr({
+			src: val.href,
+			id: "image",
+		}));
+		captions.push(val.title);
+		$(val).click((evt) => handleLinkClick(evt, i));
+	});
 
-        // preload the image for each link
+	// Click event callback
+	function handleLinkClick(evt, i) {
+		evt.preventDefault();
 
-        // set up the event handlers for each link
+		// Do not animate if you clicked the same thumbnail again
+		if ($("#image").attr("src") === images[i][0].src) return;
 
-    			// get the image URL and caption for each image
+		$("#caption, p").fadeOut(2000, () => {
+			$("#image").replaceWith(images[i]);
+			$("#caption").text(captions[i]);
+		})
+			.fadeIn(2000)
+			.delay(2000)
+			.animate({
+				fontSize: "1.5em",
+			});
+	};
 
-            // cancel the default action of each link
-
-
-    // move the focus to the first link
+	$("a:first").focus();
 
 }); // end ready
