@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: sftp://mwells21@webpages.uncc.edu/
+        ftp-server: webpages.uncc.edu
         ftp-username: mwells21@uncc.edu
         ftp-password: ${{ secrets.ftp_password }}
