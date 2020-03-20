@@ -1,5 +1,5 @@
 on: push
-name: Publish Website
+name: Publish Website over SFTP
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
@@ -8,9 +8,10 @@ jobs:
     - uses: actions/checkout@master
       with:
         fetch-depth: 2
+
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: sftp://webpages.uncc.edu
+        ftp-server: sftp://webpages.uncc.edu:22/
         ftp-username: mwells21
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        ftp-password: ${{ secrets.SFTP_PASSWORD }}
