@@ -15,7 +15,11 @@ var handleLeftClick = () => {
   if (img_index === 0) img_index = images.length - 1;
   else img_index = img_index - 1;
 
-  $("#slideshow-img").replaceWith(imageElements[img_index]);
+  $("#slideshow-container").hide("slide", 250, () => {
+    $("#slideshow-img").replaceWith(imageElements[img_index]);
+  }).show("slide", 250);
+
+  // $("#slideshow-img").replaceWith(imageElements[img_index]);
 };
 
 var handleRightClick = () => {
@@ -24,10 +28,14 @@ var handleRightClick = () => {
   if (img_index === images.length - 1) img_index = 0;
   else img_index = img_index + 1;
 
-  $("#slideshow-img").replaceWith(imageElements[img_index]);
+  $("#slideshow-container").fadeOut(2000, () => {
+    $("#slideshow-img").replaceWith(imageElements[img_index]);
+  })
+    .fadeIn(2000);
+
 };
 
-$(function() {
+$(function () {
   images.forEach(img => {
     imageElements.push(
       $("<img>").attr({

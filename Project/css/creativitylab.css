@@ -93,14 +93,6 @@ main section {
   margin: 2rem;
 }
 
-#img-collection img:last-child:hover {
-  transform: scale(1.5) translateY(-5rem);
-}
-
-#img-collection img:hover {
-  transform: scale(1.5);
-}
-
 #about-section > img {
   margin: 2rem auto;
   border: none;
@@ -124,6 +116,10 @@ main section {
   width: fit-content;
   overflow: hidden;
   position: relative;
+}
+
+#slideshow-container {
+  display: inline;
 }
 
 #slideshow-content button {
