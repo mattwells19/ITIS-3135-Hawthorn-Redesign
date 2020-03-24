@@ -29,13 +29,6 @@
   line-height: 7rem;
 }
 
-.slideshow-container {
-  background-color: #e7e7e7;
-  width: 50rem;
-  height: 50rem;
-  margin: auto;
-}
-
 main section {
   margin-bottom: 5rem;
 }
@@ -113,13 +106,15 @@ main section {
 
 #slideshow-content {
   margin: auto;
-  width: fit-content;
-  overflow: hidden;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 #slideshow-container {
-  display: inline;
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
 }
 
 #slideshow-content button {

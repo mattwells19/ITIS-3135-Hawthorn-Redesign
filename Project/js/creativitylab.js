@@ -1,3 +1,21 @@
+/**
+ * Library: https://github.com/daneden/animate.css
+ * Function provided from link as well
+ */
+function animateCSS(element, animationName, options, callback) {
+  const node = document.querySelector(element)
+  node.classList.add('animated', animationName, options)
+
+  function handleAnimationEnd() {
+      node.classList.remove('animated', animationName, options)
+      node.removeEventListener('animationend', handleAnimationEnd)
+
+      if (typeof callback === 'function') callback()
+  }
+
+  node.addEventListener('animationend', handleAnimationEnd)
+}
+
 var images = [
   "images/CreativityLab/Prints/3DPrint1.jpg",
   "images/CreativityLab/Prints/3DPrint2.jpg",
@@ -15,11 +33,10 @@ var handleLeftClick = () => {
   if (img_index === 0) img_index = images.length - 1;
   else img_index = img_index - 1;
 
-  $("#slideshow-container").hide("slide", 250, () => {
+  animateCSS("#slideshow-img", "slideOutLeft", "faster", () => {
     $("#slideshow-img").replaceWith(imageElements[img_index]);
-  }).show("slide", 250);
-
-  // $("#slideshow-img").replaceWith(imageElements[img_index]);
+    animateCSS("#slideshow-img", "slideInRight", "faster");
+  });
 };
 
 var handleRightClick = () => {
@@ -28,10 +45,10 @@ var handleRightClick = () => {
   if (img_index === images.length - 1) img_index = 0;
   else img_index = img_index + 1;
 
-  $("#slideshow-container").fadeOut(2000, () => {
+  animateCSS("#slideshow-img", "slideOutRight", "faster", () => {
     $("#slideshow-img").replaceWith(imageElements[img_index]);
-  })
-    .fadeIn(2000);
+    animateCSS("#slideshow-img", "slideInLeft", "faster");
+  });
 
 };
 
