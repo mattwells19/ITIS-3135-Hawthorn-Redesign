@@ -41,14 +41,18 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- JQuery Fotorama Plugin -->
+  <!-- https://fotorama.io/ -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <!-- End plugin -->
+
   <link type="text/css" rel="stylesheet" href="css/creativitylab.css" />
   <link type="text/css" rel="stylesheet" href="css/navbar.css" />
   <script src="components/navbar.js"></script>
   <script src="components/header.js"></script>
   <script src="components/footer.js"></script>
   <script src="js/onload.js"></script>
-  <script src="js/creativitylab.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
 <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-63 node-type-page">
@@ -141,17 +145,17 @@
           <!-- Student Works Section -->
           <section id="prints-section">
             <h3>Student Creations</h3>
-            <div id="slideshow-content">
-              <button id="slideshow-left">
-                <img src="icons/down-arrow.svg" style="transform: rotate(90deg);" />
-              </button>
-              <div id="slideshow-container">
-                <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/3DPrint1.jpg"
-                  width="600px" />
-              </div>
-              <button id="slideshow-right">
-                <img src="icons/down-arrow.svg" style="transform: rotate(-90deg);" />
-              </button>
+            <div id="slideshow-content" class="fotorama" data-nav="thumbs" data-width="600" data-loop="true">
+              <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/3DPrint1.jpg"
+                width="600px" />
+              <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/3DPrint2.jpg"
+                width="600px" />
+              <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/3DPrint_IronMan.jpg"
+                width="600px" />
+              <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/3DPrint_Shark.jpg"
+                width="600px" />
+              <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/Laser1.jpg" width="600px" />
+              <img id="slideshow-img" alt="slideshow-img" src="images/CreativityLab/Prints/Laser2.jpg" width="600px" />
             </div>
           </section>
 

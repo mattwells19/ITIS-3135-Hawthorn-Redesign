@@ -23,7 +23,7 @@
 
 .content.bottom p:hover,
 .content.bottom p:focus {
-  transform: scale(1.5) translateY(-10rem);
+  transform: scale(1.1) translateY(-2rem);
 }
 
 .content {
