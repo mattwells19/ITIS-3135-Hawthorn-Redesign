@@ -1,10 +1,11 @@
 // Dynamically add breadcrumbs and activeTab so that we don't have to in HTML
 
-$(function() {
+$(function () {
   addBreadcrumbs();
   addActiveTab();
 });
 
+// Helper function for determining which page we're on
 var getCurrentPageandSection = () => {
   var pageText = document.getElementsByClassName("page-header")[0].firstChild
     .nodeValue;
@@ -37,6 +38,7 @@ var getCurrentPageandSection = () => {
   return { activePage, activeSection };
 };
 
+// Dynamically adds the breadcrumbs to the top of each page
 var addBreadcrumbs = () => {
   var { activePage, activeSection } = getCurrentPageandSection();
   bread = document.getElementById("breadcrumbs");
@@ -44,12 +46,13 @@ var addBreadcrumbs = () => {
   var lcCrumb = `<li><a class="active-trail" href="Overview.html">Freshman Learning Community</a></li>`;
   var sectionCrumb = activeSection
     ? `<li class="active">${activeSection[0].toUpperCase() +
-        activeSection.slice(1)} Students</li>`
+    activeSection.slice(1)} Students</li>`
     : "";
   var pageCrumb = `<li class="active">${activePage}</li>`;
   bread.innerHTML = `${homeCrumb + lcCrumb + sectionCrumb + pageCrumb}`;
 };
 
+// Dyncamically add styles to the active page tab in the navbar
 var addActiveTab = () => {
   var { activePage, activeSection } = getCurrentPageandSection();
 

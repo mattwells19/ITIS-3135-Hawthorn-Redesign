@@ -13,6 +13,10 @@ $(function () {
 
   var nav = document.getElementById("side-navbar");
 
+  // Because the navbar is consistent througout each webpage, we can inject the HTML
+  // from here. That way if a change is needed, we can make the change here and have 
+  // it applied everywhere.
+
   nav.innerHTML = `
     <h2 class="block-title">
       <a href="Overview.html" title="" class="active-trail">

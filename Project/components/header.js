@@ -1,6 +1,9 @@
 $(function () {
 
-
+    // This component is used to apply the header to each page as it is the same everywhere.
+    // The customer stated that the header has to be the same as per the Universities restrictions
+    // which means I can't really modify any of the code here. I added some JQuery so that the 
+    // header menu item works. Other than that this is what the school says has to be in there.
     document.getElementById("header").innerHTML = `
 <div id="skip-link">
 <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>

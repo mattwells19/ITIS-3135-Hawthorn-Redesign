@@ -1,5 +1,11 @@
-$(function() {
-  document.getElementById("footer").innerHTML = `
+$(function () {
+
+        // This component is used to apply the footer to each page as it is the same everywhere
+        // The customer stated that the footer has to be the same as per the Universities restrictions
+        // which means I can't really modify any of the code here. I added some JQuery so that the 
+        // expand footer works. Other than that this is what the school says has to be in there.
+
+        document.getElementById("footer").innerHTML = `
 <footer class="footer" id="accordian" style="margin-top: 20vh">
 <div class="panel panel-default">
     <!-- color bar for footer heading -->
@@ -90,13 +96,13 @@ $(function() {
 </footer>
 `;
 
-  var handleFooterClick = () => {
-    $("#collapseOne").toggle("blind", 500);
-  };
+        var handleFooterClick = () => {
+                $("#collapseOne").toggle("blind", 500);
+        };
 
-  document.getElementById("footerExtra").onclick = handleFooterClick;
+        document.getElementById("footerExtra").onclick = handleFooterClick;
 
-  // Start the footer open and close after load.
-  // This allows the href="#collapseOne" to scroll the page correctly.
-  handleFooterClick();
+        // Start the footer open and close after load.
+        // This allows the href="#collapseOne" to scroll the page correctly.
+        handleFooterClick();
 });
