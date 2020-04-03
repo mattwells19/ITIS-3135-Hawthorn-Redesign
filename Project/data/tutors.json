@@ -1,0 +1,31 @@
+{
+    "tutors": [
+        {
+            "name": "Matt Wells",
+            "class": "ECGR 2103/2104",
+            "bio": "Matt is a senior majoring in Computer Science with a focus in robotics. He started school as a Computer Engineer and switched over to Computer Science after 3 semesters. Matt has been the C++ Tutor for 3 years!",
+            "hours_location": {
+                "monday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "tuesday": {
+                    "hours": "2:00pm-5:00pm",
+                    "location": "Smith 267"
+                },
+                "wednesday": {
+                    "hours": "10:00am-2:00pm",
+                    "location": "Hawthorn First Floor Lounge"
+                },
+                "thursday": {
+                    "hours": "2:00pm-5:00pm",
+                    "location": "Smith 267"
+                },
+                "friday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                }
+            }
+        }
+    ]
+}
