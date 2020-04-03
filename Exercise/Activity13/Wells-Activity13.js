@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     const url = "https://webpages.uncc.edu/mwells21/Exercise/Activity13";
     function handleNavClick(title) {
         $.getJSON(`${url}/json_files/${title}.json`, (resp_data) => {
