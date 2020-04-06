@@ -16,20 +16,22 @@ section.about-tutoring ul li {
 }
 
 .tutor-card {
-  border: 2px solid black;
-  margin: 2rem auto;
+  background: linear-gradient(to right, #e7e7e7, white);
+  margin: 4rem auto;
   width: 80%;
   padding: 1rem;
   display: flex;
   position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+  0 2px 4px rgba(0,0,0,0.07), 
+  0 4px 8px rgba(0,0,0,0.07), 
+  0 8px 16px rgba(0,0,0,0.07),
+  0 16px 32px rgba(0,0,0,0.07), 
+  0 32px 64px rgba(0,0,0,0.07);
 }
 
 .tutor-card p {
   width: 90%;
-}
-
-.tutor-card > img {
-  border: 2px solid black;
 }
 
 .tutor-card-text-container {
@@ -43,7 +45,6 @@ section.about-tutoring ul li {
   position: absolute;
   background-color: #e7e7e7;
   border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 10px black;
   height: 95%;
   max-width: 3rem;
   right: 0;
