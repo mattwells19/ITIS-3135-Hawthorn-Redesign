@@ -59,9 +59,10 @@ main section {
   margin-top: 4rem;
 }
 
-.previous-winner h4 {
+.previous-winner-text {
   margin: 1rem;
   margin-top: 6rem;
+  text-align: right;
 }
 
 .previous-winner img {

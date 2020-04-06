@@ -94,15 +94,15 @@ section.about-tutoring ul li {
   text-align: center;
 }
 
-#days li {
+.days li {
   list-style: none;
   color: #004525;
   text-align: left;
   margin: 0.5rem;
 }
 
-#times li,
-#location li {
+.times li,
+.location li {
   list-style: none;
   color: #333333;
   text-align: center;
