@@ -7,7 +7,7 @@ $(document).ready(function () {
         $.each(data.items, function (i, item) {
             $("#new_building").append(`
                 <a href=${item.media.m} data-title="${item.title}" data-lightbox="buildings">
-                    <img src=${item.media.m} alt="${item.title}" Picture" />
+                    <img src=${item.media.m} alt="${item.title}" />
                 </a>
             `);
         });

@@ -57,3 +57,7 @@ footer {
 	background: url('images/footer.gif');
 	clear: both;
 }
+
+#new_building a {
+	text-decoration:none;
+}
