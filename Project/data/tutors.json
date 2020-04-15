@@ -1,8 +1,10 @@
 {
     "tutors": [
         {
+            "id": "ECGR-2104",
             "name": "Matt Wells",
             "class": "ECGR 2103/2104",
+            "image": "images/Tutors/ECGR2104-Matt.jpg",
             "bio": "Matt is a senior majoring in Computer Science with a focus in robotics. He started school as a Computer Engineer and switched over to Computer Science after 3 semesters. Matt has been the C++ Tutor for 3 years!",
             "hours_location": {
                 "monday": {
@@ -22,6 +24,162 @@
                     "location": "Smith 267"
                 },
                 "friday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "saturday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "sunday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                }
+            }
+        },
+        {
+            "id": "MATH-1241",
+            "name": "Mason Beard",
+            "class": "MATH 1241",
+            "image": "images/norm.png",
+            "bio": "Hi, I'm Mason! I like math!",
+            "hours_location": {
+                "monday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "tuesday": {
+                    "hours": "4:30pm-7:00pm",
+                    "location": "Hawthorn 2nd Floor Lounge"
+                },
+                "wednesday": {
+                    "hours": "12:00pm-5:00pm",
+                    "location": "Hawthorn 2nd Floor Lounge"
+                },
+                "thursday": {
+                    "hours": "4:30pm-7:00pm",
+                    "location": "Hawthorn 2nd Floor Lounge"
+                },
+                "friday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "saturday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "sunday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                }
+            }
+        },
+        {
+            "id": "TechWriting",
+            "name": "Matthew Lacorte",
+            "class": "Technical Writing",
+            "image": "images/norm.png",
+            "bio": "Hi I'm Matthew and I like writing!",
+            "hours_location": {
+                "monday": {
+                    "hours": "4:00pm-6:30pm",
+                    "location": "Hawthorn Classroom"
+                },
+                "tuesday": {
+                    "hours": "9:00am-12:00pm",
+                    "location": "Smith 267"
+                },
+                "wednesday": {
+                    "hours": "4:00pm-6:30pm",
+                    "location": "Smith 267"
+                },
+                "thursday": {
+                    "hours": "9:00am-11:00am",
+                    "location": "Hawthorn Classroom"
+                },
+                "friday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "saturday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "sunday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                }
+            }
+        },
+        {
+            "id": "PHYS-2101",
+            "name": "Andrew Olszewski",
+            "class": "PHYS 2101",
+            "image": "images/norm.png",
+            "bio": "Hi I'm Andrew and I like physics!",
+            "hours_location": {
+                "monday": {
+                    "hours": "12:30pm-3:30pm",
+                    "location": "Hawthorn 3rd Floor Lounge"
+                },
+                "tuesday": {
+                    "hours": "2:30pm-5:00pm",
+                    "location": "Hawthorn 3rd Floor Lounge"
+                },
+                "wednesday": {
+                    "hours": "12:30pm-3:30pm",
+                    "location": "Hawthorn 3rd Floor Lounge"
+                },
+                "thursday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "friday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "saturday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "sunday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                }
+            }
+        },
+        {
+            "id": "CHEM-1251",
+            "name": "Isaiah Young",
+            "class": "CHEM 1251",
+            "image": "images/norm.png",
+            "bio": "Hi I'm Isaiah and I like chemistry!",
+            "hours_location": {
+                "monday": {
+                    "hours": "10:10am-3:30pm",
+                    "location": "Smith 272"
+                },
+                "tuesday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "wednesday": {
+                    "hours": "10:10am-3:30pm",
+                    "location": "Hawthorn Classroom"
+                },
+                "thursday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "friday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "saturday": {
+                    "hours": "Closed",
+                    "location": "Closed"
+                },
+                "sunday": {
                     "hours": "Closed",
                     "location": "Closed"
                 }
