@@ -1,0 +1,25 @@
+{
+    "testimonials": [
+        {
+            "name": "Name of Student",
+            "image": "images/norm_face.png",
+            "year": "Year of Residency",
+            "major": "Major",
+            "message": "Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum viderer voluptua, in noster meliore vel, ad ius modus probatus mandamus. Mel solet utamur referrentur no. Esse iusto liberavisse nec te, et feugiat elaboraret sed. Eu mollis facilisi."
+        },
+        {
+            "name": "Name of Student",
+            "image": "images/norm_face.png",
+            "year": "Year of Residency",
+            "major": "Major",
+            "message": "Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum viderer voluptua, in noster meliore vel, ad ius modus probatus mandamus. Mel solet utamur referrentur no. Esse iusto liberavisse nec te, et feugiat elaboraret sed. Eu mollis facilisi."
+        },
+        {
+            "name": "Name of Student",
+            "image": "images/norm_face.png",
+            "year": "Year of Residency",
+            "major": "Major",
+            "message": "Sumo dicunt quo te, ne eos solet reprimique. Vel sententiae mediocritatem no, ad paulo mediocritatem vel. Ei pri rebum viderer voluptua, in noster meliore vel, ad ius modus probatus mandamus. Mel solet utamur referrentur no. Esse iusto liberavisse nec te, et feugiat elaboraret sed. Eu mollis facilisi."
+        }
+    ]
+}
