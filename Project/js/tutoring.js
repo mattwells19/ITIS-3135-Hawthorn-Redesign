@@ -1,8 +1,9 @@
 $(function () {
-
+  var url = window.location.href;
+  const urlParts = url.split("/");
   $.ajax({
     type: "get",
-    url: "/data/tutors.json",
+    url: url.replace(urlParts[urlParts.length - 1], "data/tutors.json"),
     timeout: 10000,
     error: function (xhr, status, error) {
       alert("Error: " + xhr.status + " - " + error);

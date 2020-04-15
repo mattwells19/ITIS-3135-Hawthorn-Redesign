@@ -1,23 +1,25 @@
 $(function () {
-    $.ajax({
-        type: "get",
-        url: "/data/testimonials.json",
-        timeout: 10000,
-        error: function (xhr, status, error) {
-            alert("Error: " + xhr.status + " - " + error);
-        },
-        dataType: "json",
-        success: function (data) {
-            $("#testimonials").html("");
-            for (const test of data.testimonials) {
-                $("#testimonials").append(getTestimonialCard(test));
-            }
-        }
-    });
+  var url = window.location.href;
+  const urlParts = url.split("/");
+  $.ajax({
+    type: "get",
+    url: url.replace(urlParts[urlParts.length - 1], "data/testimonials.json"),
+    timeout: 10000,
+    error: function (xhr, status, error) {
+      alert("Error: " + xhr.status + " - " + error);
+    },
+    dataType: "json",
+    success: function (data) {
+      $("#testimonials").html("");
+      for (const test of data.testimonials) {
+        $("#testimonials").append(getTestimonialCard(test));
+      }
+    }
+  });
 })
 
 const getTestimonialCard = (testData) => {
-    return `<!-- Beginning of testimonial card -->
+  return `<!-- Beginning of testimonial card -->
     <div class="testimonial-card">
       <img src="${testData.image}" alt="Testimonial Image" height=300 />
       <div class="testimonial-card-content">
