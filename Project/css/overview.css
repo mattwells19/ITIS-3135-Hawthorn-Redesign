@@ -28,7 +28,6 @@ section.in-charge {
   border-radius: 0.5rem;
   flex-direction: column;
   width: 45%;
-  border: 4px solid #004525;
 }
 
 .in-charge-card > img {
@@ -36,8 +35,6 @@ section.in-charge {
   height: auto;
   display: block;
   margin: auto;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px black;
 }
 
 .in-charge-card > p > img,

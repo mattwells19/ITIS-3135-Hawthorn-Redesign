@@ -6,34 +6,21 @@
 
 .content p {
   flex-basis: 30%;
-  border: 1px solid black;
   padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px black;
   margin-bottom: 20px;
   line-height: 3rem;
   background-color: white;
-  transition: transform ease-in-out 500ms;
-}
-
-.content p:hover,
-.content p:focus {
-  transform: scale(1.1);
-}
-
-.content.bottom p:hover,
-.content.bottom p:focus {
-  transform: scale(1.1) translateY(-2rem);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+  0 2px 4px rgba(0,0,0,0.1), 
+  0 4px 8px rgba(0,0,0,0.07), 
+  0 8px 16px rgba(0,0,0,0.07),
+  0 16px 32px rgba(0,0,0,0.07), 
+  0 32px 64px rgba(0,0,0,0.07);
 }
 
 .content {
   display: flex;
   justify-content: space-evenly;
-}
-
-#student-images > img {
-  border-radius: 1rem;
-  border: 4px solid #004525;
 }
 
 #student-images {
