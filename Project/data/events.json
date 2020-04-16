@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "event_name": "Cupcake Decorating Contest",
+            "ra_names": "RA Santaja and RA Tyler",
+            "event_details": "Residents will show off their decorating skills for a chance to win gift cards to places that will remain unnamed until the contest. There will be THREE winners, but only 24 people are allowed to participate in the event. A sign-up sheet will be sent to you in a following email. Hope to see you there!",
+            "image": "https://live.staticflickr.com/65535/49778315048_7ed6ab0477_z.jpg"
+        },
+        {
+            "event_name": "Jackbox January but in February",
+            "ra_names": "Hawthorn Leadership Team",
+            "event_details": "Come enjoy some food and Jackbox games with your Hawthorn Leadership teams! No signup required just come and have some fun!",
+            "image": "https://live.staticflickr.com/65535/49778315033_5b3c6cac3f_z.jpg"
+        },
+        {
+            "event_name": "Winter Fruit Festival",
+            "ra_names": "RA Gabriel",
+            "event_details": "We have fruits from around the world, some you have never even heard of! Come down and try some fruits, we also have a blender in case you decide to make a SMOOTHIE with these amazing fruits! I hope to see you there!",
+            "image": "https://live.staticflickr.com/65535/49778315018_44e9abf4fc_z.jpg"
+        }
+    ]
+}

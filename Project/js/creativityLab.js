@@ -1,7 +1,7 @@
 $(function () {
     // URL for student work photos from Flickr
     const url =
-        "https://api.flickr.com/services/feeds/photos_public.gne?id=187976205@N06&format=json&jsoncallback=?";
+        "https://api.flickr.com/services/feeds/photos_public.gne?id=187976205@N06&format=json&jsoncallback=?&tags=3DPrint";
 
     // Get the images
     $.getJSON(url, function (data) {

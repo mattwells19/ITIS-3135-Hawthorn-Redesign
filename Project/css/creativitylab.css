@@ -86,8 +86,7 @@ main section {
 }
 
 #about-section > img {
-  margin: 2rem auto;
-  display: block;
+  float: right;
 }
 
 #about-section li {

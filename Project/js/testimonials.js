@@ -10,7 +10,6 @@ $(function () {
     },
     dataType: "json",
     success: function (data) {
-      $("#testimonials").html("");
       for (const test of data.testimonials) {
         $("#testimonials").append(getTestimonialCard(test));
       }

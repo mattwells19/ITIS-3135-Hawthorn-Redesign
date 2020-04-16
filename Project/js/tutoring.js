@@ -10,8 +10,6 @@ $(function () {
     },
     dataType: "json",
     success: function (data) {
-      $("#tutored-classes").html("");
-      $("#tutors").html("")
       for (const tutor of data.tutors) {
         $("#tutors").append(getTutorCard(tutor));
         $("#tutored-classes").append(getClassItem(tutor));

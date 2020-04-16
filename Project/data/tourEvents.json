@@ -1,0 +1,18 @@
+{
+    "tourEvents": [
+        {
+            "name": "Explore",
+            "dates": [
+                "March 21st",
+                "April 4th"
+            ]
+        },
+        {
+            "name": "Admitted Students Day",
+            "dates": [
+                "March 27th",
+                "April 24th"
+            ]
+        }
+    ]
+}
