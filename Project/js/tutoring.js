@@ -1,6 +1,9 @@
 $(function () {
+  // had some troubles with URLs so I do some fancy string parsing
+  // to make sure we load the data correctly
   var url = window.location.href;
   const urlParts = url.split("/");
+  // Get data from tutors file
   $.ajax({
     type: "get",
     url: url.replace(urlParts[urlParts.length - 1], "data/tutors.json"),
@@ -11,11 +14,11 @@ $(function () {
     dataType: "json",
     success: function (data) {
       for (const tutor of data.tutors) {
+        // tutors section will have a card added for each tutor
         $("#tutors").append(getTutorCard(tutor));
+        // tutored classes is the section that has links for each tutored class
         $("#tutored-classes").append(getClassItem(tutor));
       }
-
-
 
       // Handles the opening and closing of the hours tab for each tutor
       $(".tutor-hours").click(event => {
@@ -35,6 +38,10 @@ const getClassItem = (tutorData) => {
   return `<li><a href="#${tutorData.id}">${tutorData.class}</a></li>`;
 }
 
+// Take boilerplate tutor card and add necessary information
+// I realize I could use a loop for hours and location but 
+// considering the number of days won't change (there will always
+// be 7 days) there isn't much harm in leaving it like this
 const getTutorCard = (tutorData) => {
   return `<!-- Beginning of tutor card -->
 <div class="tutor-card" id="${tutorData.id}">

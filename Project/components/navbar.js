@@ -59,6 +59,7 @@ $(function () {
       </ul>
       <a href="Parents.html"><li>Parents</li></a>
     </ul>
+    <!-- Validation Links -->
     <div style="text-align: center;">
       <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
       <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
