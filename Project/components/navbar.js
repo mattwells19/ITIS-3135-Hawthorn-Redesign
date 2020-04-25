@@ -25,7 +25,7 @@ $(function () {
     </h2>
     <ul>
       <a href="index.html"><li>Overview</li></a>
-      <li id="current-nav-menu">
+      <li id="current-nav-menu" aria-haspopup="true">
         Current Students
         <img
           class="menu-arrow current"
@@ -44,7 +44,7 @@ $(function () {
           ><li>Tutoring</li></a
         >
       </ul>
-      <li id="prospective-nav-menu">
+      <li id="prospective-nav-menu" aria-haspopup="true">
         Prospective Students
         <img
           class="menu-arrow prospective"

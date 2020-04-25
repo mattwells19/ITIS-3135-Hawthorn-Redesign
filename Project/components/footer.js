@@ -6,7 +6,7 @@ $(function () {
         // expand footer works. Other than that this is what the school says has to be in there.
 
         document.getElementById("footer").innerHTML = `
-<footer class="footer" id="accordian" style="margin-top: 20vh">
+<footer class="footer" id="accordian" style="margin-top: 10vh">
 <div class="panel panel-default">
     <!-- color bar for footer heading -->
     <div class="heading-wrapper">
