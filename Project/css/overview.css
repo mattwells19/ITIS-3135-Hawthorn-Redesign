@@ -59,3 +59,26 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.btn1 {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #00703c;
+  color: #ffffff !important;
+  border: solid 2px #00703c;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none !important;
+  font-size: 26px;
+}
+
+.btn1:hover {
+  border: solid 2px #004525;
+  background-color: #004525;
+}
