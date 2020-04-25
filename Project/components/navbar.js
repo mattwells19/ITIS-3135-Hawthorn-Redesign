@@ -19,12 +19,12 @@ $(function () {
 
   nav.innerHTML = `
     <h2 class="block-title">
-      <a href="Overview.html" title="" class="active-trail">
+      <a href="index.html" title="" class="active-trail">
         Freshman Learning Community
       </a>
     </h2>
     <ul>
-      <a href="Overview.html"><li style="margin-top: 2px;">Overview</li></a>
+      <a href="index.html"><li style="margin-top: 2px;">Overview</li></a>
       <li id="current-nav-menu">
         Current Students
         <img

@@ -34,18 +34,17 @@ h3#tour {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s;
-  background-color: #164b2e;
+  background-color: #00703c;
   color: #ffffff !important;
-  border: solid 2px #164b2e;
+  border: solid 2px #00703c;
   font-weight: bold;
   text-decoration: none !important;
   font-size: 1.4rem;
 }
 
 .btn1:hover {
-  background-color: #ffffff;
-  color: #164b2e !important;
-  border: solid 2px #164b2e;
+  border: solid 2px #004525;
+  background-color: #004525;
 }
 
 .apply img {

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<monthly>
+
+    <event>
+        <id>1</id>
+        <name>Spring Break!</name>
+        <startdate>2020-3-2</startdate>
+        <enddate>2020-3-7</enddate>
+        <color>dodgerblue</color>
+        <url></url>
+    </event>
+
+    <event>
+        <id>2</id>
+        <name>Fall 2020 courses visible on Banner</name>
+        <startdate>2020-3-2</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>3</id>
+        <name>Unsatisfactory Grades emails</name>
+        <startdate>2020-3-9</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>4</id>
+        <name>Advising begins</name>
+        <startdate>2020-3-10</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>5</id>
+        <name>Last day for withdrawal</name>
+        <startdate>2020-3-16</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>6</id>
+        <name>Registration for Summer and Fall begins</name>
+        <startdate>2020-3-30</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>7</id>
+        <name>Spring Weekend</name>
+        <startdate>2020-4-10</startdate>
+        <enddate>2020-4-11</enddate>
+        <color>dodgerblue</color>
+    </event>
+
+    <event>
+        <id>8</id>
+        <name>Last day of classes</name>
+        <startdate>2020-4-28</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>9</id>
+        <name>Reading Day</name>
+        <startdate>2020-4-29</startdate>
+        <enddate></enddate>
+        <color>forestgreen</color>
+    </event>
+
+    <event>
+        <id>10</id>
+        <name>Day of Remembrance</name>
+        <startdate>2020-4-30</startdate>
+        <enddate></enddate>
+        <color>tomato</color>
+    </event>
+
+    <event>
+        <id>11</id>
+        <name>Final Exams</name>
+        <startdate>2020-5-1</startdate>
+        <enddate>2020-5-7</enddate>
+        <color>forestgreen</color>
+    </event>
+
+</monthly>

@@ -19,6 +19,13 @@ $(function () {
       }
     }
   });
+
+  $('#ImportantDatesCalendar').monthly({
+    mode: 'event',
+    xmlUrl: 'data/importantDates.xml'
+  });
+
+
 })
 
 // Extract to a function to make things cleaner. Same thing from HTML just in string form

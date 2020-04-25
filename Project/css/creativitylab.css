@@ -81,12 +81,8 @@ main section {
   flex-wrap: wrap;
 }
 
-#img-collection img:last-child {
+#img-collection img:last-child, #img-collection img:first-child {
   margin: 2rem;
-}
-
-#about-section > img {
-  float: right;
 }
 
 #about-section li {

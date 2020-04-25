@@ -4,6 +4,7 @@
             "id": "ECGR-2104",
             "name": "Matt Wells",
             "class": "ECGR 2103/2104",
+            "email": "mwells21@uncc.edu",
             "image": "images/Tutors/ECGR2104-Matt.jpg",
             "bio": "Matt is a senior majoring in Computer Science with a focus in robotics. He started school as a Computer Engineer and switched over to Computer Science after 3 semesters. Matt has been the C++ Tutor for 3 years!",
             "hours_location": {
@@ -41,6 +42,7 @@
             "id": "MATH-1241",
             "name": "Mason Beard",
             "class": "MATH 1241",
+            "email": "mbeard@uncc.edu",
             "image": "images/norm.png",
             "bio": "Hi, I'm Mason! I like math!",
             "hours_location": {
@@ -78,6 +80,7 @@
             "id": "TechWriting",
             "name": "Matthew Lacorte",
             "class": "Technical Writing",
+            "email": "mlacorte@uncc.edu",
             "image": "images/norm.png",
             "bio": "Hi I'm Matthew and I like writing!",
             "hours_location": {
@@ -115,6 +118,7 @@
             "id": "PHYS-2101",
             "name": "Andrew Olszewski",
             "class": "PHYS 2101",
+            "email": "aolszew1@uncc.edu",
             "image": "images/norm.png",
             "bio": "Hi I'm Andrew and I like physics!",
             "hours_location": {
@@ -152,6 +156,7 @@
             "id": "CHEM-1251",
             "name": "Isaiah Young",
             "class": "CHEM 1251",
+            "email": "iyoung1@uncc.edu",
             "image": "images/norm.png",
             "bio": "Hi I'm Isaiah and I like chemistry!",
             "hours_location": {

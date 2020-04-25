@@ -42,11 +42,13 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <link type="text/css" rel="stylesheet" href="css/announcementsevents.css" />
   <link type="text/css" rel="stylesheet" href="css/navbar.css" />
+  <link type="text/css" rel="stylesheet" href="plugins/calendar/css/monthly.css" />
   <script src="components/navbar.js"></script>
   <script src="components/header.js"></script>
   <script src="components/footer.js"></script>
   <script src="js/onload.js"></script>
   <script src="js/events.js"></script>
+  <script src="plugins/calendar/js/monthly.js"></script>
 </head>
 
 <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-63 node-type-page">
@@ -76,38 +78,28 @@
           <!-- Announcements Section -->
           <section>
             <h2 class="section-header">📢 Announcements 📢</h2>
-            <h3>
-              Advising for Summer and Fall 2020 begins March 10th!
-            </h3>
-            <h3>Important Dates</h3>
-            <div id="important-dates">
-              <ul id="dates">
-                <li>March 2nd</li>
-                <li>March 2nd-7th</li>
-                <li>March 9th</li>
-                <li>March 10th</li>
-                <li>March 16th</li>
-                <li>March 30th</li>
-                <li>April 10th-11th</li>
-                <li>April 28th</li>
-                <li>April 29th</li>
-                <li>April 30th</li>
-                <li>May 1st-7th</li>
-              </ul>
-              <ul id="descriptions">
-                <li>Fall 2020 courses visible on Banner</li>
-                <li>Spring Break!</li>
-                <li>Unsatisfactory Grades emails</li>
-                <li>Advising begins</li>
-                <li>Last day for withdrawal</li>
-                <li>Registration for Summer and Fall begins</li>
-                <li>Spring Weekend</li>
-                <li>Last day of classes</li>
-                <li>Reading Day</li>
-                <li>Day of Remembrance</li>
-                <li>Final Exams</li>
-              </ul>
+            <!-- Start of an Announcement -->
+            <div class="announcement">
+              <h3>Online Learning</h3>
+              <p class="strong">
+                In response to COVID19 the residence hall will close 3/20 at 5PM.
+              </p>
+              <p class="strong">
+                The University will shift to 100% online course delivery.
+              </p>
+              <p>
+                Tutoring will still be offered during this time. Visit the
+                <a href="Tutoring.html">Tutoring page</a>
+                to get the emails and hours of the tutors.
+              </p>
             </div>
+            <!-- End of Announcement -->
+          </section>
+
+          <!-- Important Dates Section -->
+          <section>
+            <h2 class="section-header">Important Dates</h2>
+            <div class="monthly" id="ImportantDatesCalendar"></div>
           </section>
 
           <!-- Upcoming Events Section -->

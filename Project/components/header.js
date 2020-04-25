@@ -182,15 +182,15 @@ $(function () {
                                     class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class="first leaf active-trail active active"><a
-                                        href="Overview.html"
+                                        href="index.html"
                                         class="active-trail active-trail active">Overview</a></li>
                                 <li class="collapsed"><a
-                                        href="Overview.html">Current
+                                        href="index.html">Current
                                         Students</a></li>
                                 <li class="collapsed"><a
-                                        href="Overview.html">Prospective
+                                        href="index.html">Prospective
                                         Students</a></li>
-                                <li class="leaf"><a href="Overview.html">For Parents</a>
+                                <li class="leaf"><a href="index.html">For Parents</a>
                                 </li>
                                 <li class="leaf"><a href="https://osds.uncc.edu/freshman-learning-community/forms">Forms</a></li>
                                 <li class="last leaf"><a href="https://osds.uncc.edu/directory-list/freshman-learning-community"

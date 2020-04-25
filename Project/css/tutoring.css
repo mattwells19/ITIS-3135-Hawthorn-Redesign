@@ -41,48 +41,74 @@ section.about-tutoring ul li {
   margin-top: 2rem;
 }
 
+.tutor-card-text-container div {
+  margin: 20px 0;
+}
+
 .tutor-hours {
   position: absolute;
-  background-color: #e7e7e7;
-  border-radius: 1rem 0 0 1rem;
-  height: 95%;
-  max-width: 3rem;
+  background-color: #205c40;
+  height: 100%;
+  width: 3rem;
   right: 0;
-  top: 1rem;
-  transition: max-width ease-in-out 500ms;
+  top: 0;
+  transition: width ease-in-out 500ms;
   overflow: hidden;
   display: flex;
   white-space: nowrap;
+  padding: 13;
 }
 
-.hours-content {
+table {
   margin: auto;
+  width: 90%;
   margin-left: 1rem;
+  background-color: #e7e7e7;
+  border-collapse: inherit;
 }
 
-.tutor-hours img {
+th {
+  padding: 5px 20px;
+  background-color: #B3A369;
+  color: black;
+}
+
+td {
+  padding: 10px 20px !important;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+.tutor-hours #arrow {
   transition: transform linear 100ms;
-  transform: rotate(90deg);
+  font-size: 50px;
+  color: #e7e7e7;
+  margin: auto;
+  padding: 0;
+  margin-left: 8px;
 }
 
-.tutor-hours.open img {
-  transform: rotate(270deg);
+.tutor-hours.open #arrow {
+  transform: rotateZ(180deg);
+  transform-origin: center;
 }
 
 .tutor-hours.open {
-  max-width: 70rem;
+  width: 100%;
 }
 
-.tutor-hours h2 {
-  padding: 1rem;
+caption {
   text-align: center;
-  background-color: #004525;
-  color: #ffffff;
+  color: white;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 24px;
 }
 
 .operation-hours {
   margin-top: 2px;
-  background-color: #e7e7e7;
   display: flex;
   margin: auto;
 }

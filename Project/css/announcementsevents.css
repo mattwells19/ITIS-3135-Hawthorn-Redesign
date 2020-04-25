@@ -1,3 +1,12 @@
+.announcement {
+  margin: 30px;
+  padding-left: 10px;
+}
+
+.announcement p.strong {
+  font-weight: 600;
+}
+
 .event-container {
   display: flex;
   margin: 3rem;
@@ -28,7 +37,7 @@
 }
 
 main section {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .section-header {
