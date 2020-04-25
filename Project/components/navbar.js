@@ -24,7 +24,7 @@ $(function () {
       </a>
     </h2>
     <ul>
-      <a href="index.html"><li style="margin-top: 2px;">Overview</li></a>
+      <a href="index.html"><li>Overview</li></a>
       <li id="current-nav-menu">
         Current Students
         <img

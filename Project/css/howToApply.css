@@ -33,7 +33,7 @@ h3#tour {
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
   background-color: #00703c;
   color: #ffffff !important;
   border: solid 2px #00703c;
@@ -43,7 +43,7 @@ h3#tour {
 }
 
 .btn1:hover {
-  border: solid 2px #004525;
+  border-color: #004525;
   background-color: #004525;
 }
 
