@@ -1,16 +1,19 @@
 .explore-area {
-  margin-left: 3rem;
   margin-bottom: 5rem;
 }
 
 .explore-area > ul {
-  margin-left: 3rem;
+  margin-left: 1rem;
   list-style: none;
   font-weight: bold;
 }
 
 .explore-area li > ul {
   list-style: square;
+}
+
+section {
+  margin-bottom: 100px;
 }
 
 .explore-area li {

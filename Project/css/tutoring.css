@@ -18,7 +18,7 @@ section.about-tutoring ul li {
 .tutor-card {
   background: linear-gradient(to right, #e7e7e7, white);
   margin: 4rem auto;
-  width: 80%;
+  width: 85%;
   padding: 1rem;
   display: flex;
   position: relative;
@@ -56,7 +56,6 @@ section.about-tutoring ul li {
   overflow: hidden;
   display: flex;
   white-space: nowrap;
-  padding: 13;
 }
 
 table {

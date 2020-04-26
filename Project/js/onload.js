@@ -7,8 +7,7 @@ $(function () {
 
 // Helper function for determining which page we're on
 var getCurrentPageandSection = () => {
-  var pageText = document.getElementsByClassName("page-header")[0].firstChild
-    .nodeValue;
+  var pageText = document.getElementsByClassName("page-header")[0].firstChild.nodeValue;
   var activePage;
   var activeSection;
 

@@ -18,8 +18,9 @@ $(function () {
   // it applied everywhere.
 
   nav.innerHTML = `
+    <!-- Navigation Component -->
     <h2 class="block-title">
-      <a href="index.html" title="" class="active-trail">
+      <a href="index.html" class="active-trail">
         Freshman Learning Community
       </a>
     </h2>

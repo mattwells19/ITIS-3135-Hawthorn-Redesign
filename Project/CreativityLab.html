@@ -53,157 +53,162 @@
 <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-63 node-type-page">
   <div id="header"></div>
 
-  <!-- START HERE -->
-
   <div class="main-container container">
     <div class="row">
+
       <!-- Page breadcrumb -->
       <ol id="breadcrumbs" class="breadcrumb"></ol>
 
       <h1 class="page-header">Creativity Lab</h1>
 
-      <div style="display: flex;">
-        <!-- Side Navigation -->
-        <aside class="col-sm-3 no-gutters">
-          <div class="region region-sidebar-first well">
-            <section id="block-menu-block-1" class="block block-menu-block clearfix">
-              <nav role="navigation" id="side-navbar" class="side-nav"></nav>
+      <!-- Side Navigation -->
+      <aside class="col-sm-3 no-gutters">
+        <div class="region region-sidebar-first well">
+          <section id="block-menu-block-1" class="block block-menu-block clearfix">
+            <nav id="side-navbar" class="side-nav"></nav>
 
-              <h2 class="block-title">Hours of Operation</h2>
-              <div class="operation-hours">
-                <ul id="days">
-                  <li>Monday</li>
-                  <li>Tuesday</li>
-                  <li>Wednesday</li>
-                  <li>Thursday</li>
-                  <li>Friday</li>
-                  <li>Saturday</li>
-                  <li>Sunday</li>
-                </ul>
-                <ul id="times">
-                  <li>11:30am-3:00pm</li>
-                  <li>11:45am-2:00pm</li>
-                  <li>11:30am-3:00pm</li>
-                  <li>11:45am-2:00pm</li>
-                  <li>11:30am-1:30pm</li>
-                  <li>Closed</li>
-                  <li>Closed</li>
-                </ul>
-              </div>
-              <div id="disclaimer">
-                <em>
-                  Hours are subject to change. Visit the Canvas page for up to
-                  date changes and cancellations.
-                </em>
-              </div>
-            </section>
+            <!-- Creativity Lab Operation Hours -->
+            <h2 class="block-title">Hours of Operation</h2>
+            <div class="operation-hours">
+              <ul id="days">
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+                <li>Sunday</li>
+              </ul>
+              <ul id="times">
+                <li>11:30am-3:00pm</li>
+                <li>11:45am-2:00pm</li>
+                <li>11:30am-3:00pm</li>
+                <li>11:45am-2:00pm</li>
+                <li>11:30am-1:30pm</li>
+                <li>Closed</li>
+                <li>Closed</li>
+              </ul>
+            </div>
+            <div id="disclaimer">
+              <em>
+                Hours are subject to change. Visit the Canvas page for up to
+                date changes and cancellations.
+              </em>
+            </div>
+          </section>
+        </div>
+      </aside>
+
+      <main class="col-sm-9">
+
+        <!-- About the Lab Section -->
+        <section id="about-section">
+          <h2 class="section-header">The Hawthorn Makerspace</h2>
+          <p>
+            The Engineering FLC has a Creativity Lab in the basement
+            classroom of Hawthorn Hall. The Creativity Lab has two 3D
+            printers, a laser cutter and robotics equipment for use by the
+            students! We will have design challenges and an expo to share
+            your work.
+          </p>
+          <strong>Equipment:</strong>
+          <ul>
+            <li>Two Makerbot 3D Printers</li>
+            <li>Emblaser 2 Laser Cutter</li>
+            <li>Robotics Equipment</li>
+            <li>Arduino Unos and Nanos</li>
+            <li>Additional Sensors</li>
+            <li>3D Printing Pen</li>
+            <li>Conductive Paint Kits</li>
+            <li>Makey Makey Kits</li>
+          </ul>
+          <p>
+            As a student living in Hawthorn Hall, you should be added to the Creativity Lab
+            Canvas page. The Canvas page includes the rules of use for all of the equipment
+            and is where you will submit your designs to be 3D printed.
+          </p>
+
+          <div id="img-collection">
+            <img alt="lab logo" src="images/CreativityLab/Creativity_Lab_sign.jpg" height=300 />
+            <img alt="piff and rex" src="images/CreativityLab/PiffRex_Sam.jpg" width=400 />
+            <img alt="laser cutter" src="images/CreativityLab/LaserCutter.jpg" width=400 />
+            <img alt="equipment" src="images/CreativityLab/Equipment.jpg" width=400 />
           </div>
-        </aside>
+        </section>
 
-        <!-- Content goes here -->
-        <main id="main-content">
-          <!-- About the Lab Section -->
-          <section id="about-section">
-            <h2 class="section-header">The Hawthorn Makerspace</h2>
-            <p>
-              The Engineering FLC has a Creativity Lab in the basement
-              classroom of Hawthorn Hall. The Creativity Lab has two 3D
-              printers, a laser cutter and robotics equipment for use by the
-              students! We will have design challenges and an expo to share
-              your work.
-            </p>
-            <strong>Equipment:</strong>
-            <ul>
-              <li>Two Makerbot 3D Printers</li>
-              <li>Emblaser 2 Laser Cutter</li>
-              <li>Robotics Equipment</li>
-              <li>Arduino Unos and Nanos</li>
-              <li>Additional Sensors</li>
-              <li>3D Printing Pen</li>
-              <li>Conductive Paint Kits</li>
-              <li>Makey Makey Kits</li>
-            </ul>
-            <p style="clear: both;">
-              As a student living in Hawthorn Hall, you should be added to the Creativity Lab
-              Canvas page. The Canvas page includes the rules of use for all of the equipment
-              and is where you will submit your designs to be 3D printed.
-            </p>
+        <!-- Student Works Section -->
+        <section id="prints-section">
+          <h2 class="section-header">Student Creations</h2>
+          <div id="slideshow-content" class="fotorama" data-nav="thumbs" data-width="600" data-loop="true">
+            <!-- Flickr images will load here -->
+          </div>
+        </section>
 
-            <div id="img-collection">
-              <img alt="lab logo" src="images/CreativityLab/Creativity_Lab_sign.jpg" height=300 />
-              <img alt="piff and rex" src="images/CreativityLab/PiffRex_Sam.jpg" width=400 />
-              <img alt="laser cutter" src="images/CreativityLab/LaserCutter.jpg" width=400 />
-              <img alt="equipment" src="images/CreativityLab/Equipment.jpg" width=400 />
-            </div>
-          </section>
-
-          <!-- Student Works Section -->
-          <section id="prints-section">
-            <h2 class="section-header">Student Creations</h2>
-            <div id="slideshow-content" class="fotorama" data-nav="thumbs" data-width="600" data-loop="true">
-              <!-- Flickr images will load here -->
-            </div>
-          </section>
-
-          <!-- Queen of Robots Section -->
-          <section>
-            <h2 class="section-header">The Queen of Robots</h2>
-            <div class="queen-content">
-              <div class="queen-text">
-                <h3>Sam Luu</h3>
-                <p>
-                  Sam Luu is in her third year of studying computer
-                  engineering and also a current electrical engineering dual
-                  masters' student. She has been part of the FLC for three
-                  years, living in Hawthorn in 2017 and working as the
-                  Creativity Lab technician since 2018. She is very passionate
-                  about her job as the technician with her love of 3D
-                  printing, robotics, and learning about new technologies. She
-                  is constantly learning with every new technological addition
-                  to the lab. She particularly enjoys hosting workshops to
-                  assist current FLC students with 3D modeling and using
-                  Arduinos.
-                </p>
-              </div>
-              <img alt="Queen Sam" height=500 src="images/CreativityLab/LabLogo_Sam.jpg" />
-            </div>
-          </section>
-
-          <!-- Design Challenges Section -->
-          <section>
-            <h2 class="section-header">Design Challenges</h2>
-            <div class="designChallenge-content">
-              <h3>Current Design Challenge</h3>
+        <!-- Queen of Robots Section -->
+        <section>
+          <h2 class="section-header">The Queen of Robots</h2>
+          <div class="queen-content">
+            <div class="queen-text">
+              <h3>Sam Luu</h3>
               <p>
-                No new challenges at the moment. We will resume Design Challenges
-                when students return to Hawthorn Hall.
+                Sam Luu is in her third year of studying computer
+                engineering and also a current electrical engineering dual
+                masters' student. She has been part of the FLC for three
+                years, living in Hawthorn in 2017 and working as the
+                Creativity Lab technician since 2018. She is very passionate
+                about her job as the technician with her love of 3D
+                printing, robotics, and learning about new technologies. She
+                is constantly learning with every new technological addition
+                to the lab. She particularly enjoys hosting workshops to
+                assist current FLC students with 3D modeling and using
+                Arduinos.
               </p>
-              <img id="design_challenge" src="images/Coming-Soon.jpg" alt="Coming Soon!" />
-              <h3>Previous Design Challenge Winners</h3>
-              <div class="previous-winner">
-                <div class="previous-winner-text">
-                  <h4>
-                    This could be you!
-                  </h4>
-                  <p>Your name here.</p>
-                </div>
-                <img src="images/could_be_you.jpeg" alt="previous winner" />
-              </div>
-              <div class="previous-winner">
-                <div class="previous-winner-text">
-                  <h4>
-                    This could be you!
-                  </h4>
-                  <p>Your name here.</p>
-                </div>
-                <img src="images/could_be_you.jpeg" alt="previous winner" />
-              </div>
             </div>
-          </section>
-        </main>
-      </div>
+            <img alt="Queen Sam" height=500 src="images/CreativityLab/LabLogo_Sam.jpg" />
+          </div>
+        </section>
 
-      <!-- Content ends here -->
+        <!-- Design Challenges Section -->
+        <section>
+          <h2 class="section-header">Design Challenges</h2>
+          <div class="designChallenge-content">
+
+            <!-- Ongoing Design Challenge -->
+            <h3>Current Design Challenge</h3>
+            <p>
+              No new challenges at the moment. We will resume Design Challenges
+              when students return to Hawthorn Hall.
+            </p>
+            <img id="design_challenge" src="images/Coming-Soon.jpg" alt="Coming Soon!" />
+
+            <h3>Previous Design Challenge Winners</h3>
+            <!-- Previous Winner 1 -->
+            <div class="previous-winner">
+              <div class="previous-winner-text">
+                <h4>
+                  This could be you!
+                </h4>
+                <p>Your name here.</p>
+              </div>
+              <img src="images/could_be_you.jpeg" alt="previous winner" />
+            </div>
+            <!-- End Previous Winner 1 -->
+
+            <!-- Previous Winner 2 -->
+            <div class="previous-winner">
+              <div class="previous-winner-text">
+                <h4>
+                  This could be you!
+                </h4>
+                <p>Your name here.</p>
+              </div>
+              <img src="images/could_be_you.jpeg" alt="previous winner" />
+            </div>
+            <!-- End Previous Winner 2 -->
+
+          </div>
+        </section>
+      </main>
     </div>
   </div>
 

@@ -1,8 +1,10 @@
 $(function () {
+
   // had some troubles with URLs so I do some fancy string parsing
   // to make sure we load the data correctly
   var url = window.location.href;
   const urlParts = url.split("/");
+
   // Get data from events file
   $.ajax({
     type: "get",
@@ -20,11 +22,11 @@ $(function () {
     }
   });
 
+  // Add Calendar plugin
   $('#ImportantDatesCalendar').monthly({
     mode: 'event',
     xmlUrl: 'data/importantDates.xml'
   });
-
 
 })
 

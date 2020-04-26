@@ -1,9 +1,5 @@
-aside {
-  min-width: 30rem;
-}
-
 aside section {
-  margin-bottom: 10rem !important;
+  margin-bottom: 100px !important;
 }
 
 nav.side-nav ul {
