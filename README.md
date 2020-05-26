@@ -16,4 +16,5 @@ This project utilizes the following web technologies:
 * AJAX
 
 Before (the original): https://osds.uncc.edu/freshman-learning-community/overview
+
 After (my work): https://hawthorn-redesign.now.sh/
