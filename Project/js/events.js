@@ -1,14 +1,9 @@
 $(function () {
 
-  // had some troubles with URLs so I do some fancy string parsing
-  // to make sure we load the data correctly
-  var url = window.location.href;
-  const urlParts = url.split("/");
-
   // Get data from events file
   $.ajax({
     type: "get",
-    url: url.replace(urlParts[urlParts.length - 1], "data/events.json"),
+    url: "/data/events.json",
     timeout: 10000,
     error: function (xhr, status, error) {
       alert("Error: " + xhr.status + " - " + error);
