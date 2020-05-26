@@ -1,11 +1,8 @@
-# ITIS-3135-WebAppDesign
-Code for ITIS Web App and Design class at UNC Charlotte (Spring 2020).
+# Hawthorn Hall - UNCC FLC Website Redesign
 
-## Exercises
-This folder contains assignments done for class.
+## For ITIS-3135 Web-App Design and Development
 
-## Project
-This contains the semester project which, for me, was a redesign of the UNCC Freshman Learning Community Hawthorn Hall's website. The original site is here: https://osds.uncc.edu/freshman-learning-community/overview
+This contains the semester project which, for me, was a redesign of the UNCC Freshman Learning Community Hawthorn Hall's website.
 
 This project utilizes the following web technologies:
 * HTML
@@ -18,4 +15,5 @@ This project utilizes the following web technologies:
   * [calendar](http://kthornbloom.com/monthly/)
 * AJAX
 
-Final result can be seen here: https://hawthorn-redesign.now.sh/
+Before (the original): https://osds.uncc.edu/freshman-learning-community/overview
+After (my work): https://hawthorn-redesign.now.sh/
